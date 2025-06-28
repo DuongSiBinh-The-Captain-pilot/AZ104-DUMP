@@ -72,7 +72,7 @@ Which of the following should you use to create the virtual machine?
 - A. The New-AzureRmVm cmdlet.
 - B. The New-AzVM cmdlet.
 - C. The Create-AzVM cmdlet.
-- D. The az vm create command.
+- ✅ D. The az vm create command.
 
 **Correct Answer:** D
 
@@ -88,10 +88,11 @@ Solution: You reconfigure the existing usage model via the Azure portal.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+Since it is not possible to change the usage model of an existing provider as it is right now, you have to create a new one and reactivate your
+existing server with activation credentials from the new provider.
 ---
 
 ### Question 7: Question #7 Topic 1
@@ -104,7 +105,7 @@ Solution: You reconfigure the existing usage model via the Azure CLI.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -119,11 +120,12 @@ To achieve this, the Per Enabled User setting must be set for the usage model.
 Solution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.
 Does the solution meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** B
-
+Since it is not possible to change the usage model of an existing provider as it is right now, you have to create a new one and reactivate your
+existing server with activation credentials from the new provider.
 ---
 
 ### Question 9: Question #9 Topic 1
@@ -137,7 +139,7 @@ Solution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdle
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -154,7 +156,7 @@ Solution: You use Active Directory Sites and Services to force replication of th
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -171,7 +173,7 @@ Solution: You restart the NetLogon service on a domain controller.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -190,12 +192,15 @@ You have the following data storage requirements:
 Which of the following Azure stored redundancy options should you recommend?
 
 - A. Geo-redundant storage
-- B. Read-only geo-redundant storage
+- ✅ B. Read-only geo-redundant storage
 - C. Zone-redundant storage
 - D. Locally redundant storage
 
 **Correct Answer:** B
-
+RA-GRS allows you to have higher read availability for your storage account by providing €גread only €גaccess to the data replicated to the
+secondary location. Once you enable this feature, the secondary location may be used to achieve higher availability in the event the data is not
+available in the primary region. This is an
+€גopt-in €גfeature which requires the storage account be geo-replicated
 ---
 
 ### Question 13: Question #13 Topic 1
@@ -208,7 +213,7 @@ Solution: You access the Virtual Machine blade.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -223,7 +228,7 @@ You want to review the ARM template that was used by Jon Ross.
 Solution: You access the Resource Group blade.
 Does the solution meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -240,7 +245,7 @@ Solution: You access the Container blade.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -255,7 +260,7 @@ Which of the following actions should you take?
 
 - A. You should only stop one of the VMs.
 - B. You should stop two of the VMs.
-- C. You should stop all three VMs.
+- ✅ C. You should stop all three VMs.
 - D. You should remove the necessary VM from the availability set.
 
 **Correct Answer:** C
@@ -270,7 +275,7 @@ Which of the following is the action you should take FIRST?
 
 - A. Stop the VM that includes the data disk.
 - B. Stop the VM that the data disk must be attached to.
-- C. Detach the data disk.
+- ✅ C. Detach the data disk.
 - D. Delete the VM that includes the data disk.
 
 **Correct Answer:** C
@@ -287,7 +292,7 @@ Which of the following is the value that you should configure for the platformFa
 - A. 10
 - B. 30
 - C. Min Value
-- D. Max Value
+- ✅ D. Max Value
 
 **Correct Answer:** D
 
@@ -301,7 +306,7 @@ You are required to make sure that the ARM template you configure allows for as 
 Which of the following is the value that you should configure for the platformUpdateDomainCount property?
 
 - A. 10
-- B. 20
+- ✅ B. 20
 - C. 30
 - D. 40
 
@@ -319,7 +324,7 @@ Which of the following should you create to achieve your goal? Answer by draggin
 Select and Place:
 ![](images/0001800001.png)
 
-**Correct Answer:** ![](images/0001900001.png)
+**Correct Answer:** ✅ ![](images/0001900001.png)
 
 _Explanation:_
 You can use a template that allows you to deploy a simple Windows VM by retrieving the password that is stored in a Key Vault. Therefore, the password is never put in plain text in the template parameter file.
@@ -334,7 +339,7 @@ You have created some PowerShell scripts to automate the configuration of newly 
 You need a solution that ensures the scripts are run on the new VMs.
 Which of the following is the best solution?
 
-- A. Configure a SetupComplete.cmd batch file in the %windir%\setup\scripts directory.
+- ✅ A. Configure a SetupComplete.cmd batch file in the %windir%\setup\scripts directory.
 - B. Configure a Group Policy Object (GPO) to run the scripts as logon scripts.
 - C. Configure a Group Policy Object (GPO) to run the scripts as startup scripts.
 - D. Place the scripts in a new virtual hard disk (VHD).
@@ -352,7 +357,7 @@ You need to upload the image to Azure to ensure that it is available for selecti
 Which PowerShell cmdlets should you use?
 
 - A. Add-AzVM
-- B. Add-AzVhd
+- ✅ B. Add-AzVhd
 - C. Add-AzImage
 - D. Add-AzImageDataDisk
 
@@ -369,7 +374,7 @@ Which of the following objects that must be created to achieve this goal? Answer
 Select and Place:
 ![](images/0002200001.png)
 
-**Correct Answer:** ![](images/0002300001.png)
+**Correct Answer:** ✅ ![](images/0002300001.png)
 
 ---
 
@@ -385,7 +390,7 @@ Solution: You choose the Allow gateway transit setting on VirtualNetworkA.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -403,7 +408,7 @@ Solution: You choose the Allow gateway transit setting on VirtualNetworkB.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -420,7 +425,7 @@ You have to make sure that a connection to VirtualNetworkB can be established fr
 Solution: You download and re-install the VPN client configuration package on the Windows 10 workstation.
 Does the solution meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -436,7 +441,7 @@ What should you do?
 
 - A. Configure a Site-to-Site (S2S) VPN.
 - B. Configure a VNet-toVNet VPN.
-- C. Configure a Point-to-Site (P2S) VPN.
+- ✅ C. Configure a Point-to-Site (P2S) VPN.
 - D. Configure DirectAccess on a Windows Server 2012 server VM.
 - E. Configure a Multi-Site VPN
 
@@ -453,7 +458,7 @@ Solution: You create an HTTP health probe on port 1433.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -468,7 +473,7 @@ Solution: You set Session persistence to Client IP.
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -482,7 +487,7 @@ You need to configure an Azure internal load balancer as a listener for the avai
 Solution: You enable Floating IP.
 Does the solution meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -498,7 +503,7 @@ What should you do?
 
 - A. Run the New-AzureRMVMConfig PowerShell cmdlet.
 - B. Run the Set-AzureSubnet PowerShell cmdlet.
-- C. Modify the VM properties in the Azure Management Portal.
+- ✅ C. Modify the VM properties in the Azure Management Portal.
 - D. Modify the IP properties in Windows Network and Sharing Center.
 - E. Run the Set-AzureStaticVNetIP PowerShell cmdlet.
 
@@ -513,7 +518,7 @@ You need to deploy five virtual machines (VMs) to your company's virtual network
 The VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical.
 Which of the following is the least amount of network interfaces needed for this configuration?
 
-- A. 5
+- ✅ A. 5
 - B. 10
 - C. 20
 - D. 40
@@ -532,7 +537,7 @@ Which of the following is the least amount of security groups needed for this co
 - A. 4
 - B. 3
 - C. 2
-- D. 1
+- ✅ D. 1
 
 **Correct Answer:** D
 
@@ -546,7 +551,7 @@ When the VM becomes infected with data encrypting ransomware, you decide to reco
 Which of the following is TRUE in this scenario?
 
 - A. You can only recover the files to the infected VM.
-- B. You can recover the files to any VM within the company's subscription.
+- ✅ B. You can recover the files to any VM within the company's subscription.
 - C. You can only recover the files to a new VM.
 - D. You will not be able to recover the files.
 
@@ -563,7 +568,7 @@ Which of the following actions should you take?
 
 - A. You should restore the VM after deleting the infected VM.
 - B. You should restore the VM to any VM within the company's subscription.
-- C. You should restore the VM to a new Azure VM.
+- ✅ C. You should restore the VM to a new Azure VM.
 - D. You should restore the VM to an on-premise Windows device.
 
 **Correct Answer:** C
@@ -577,7 +582,7 @@ You need to find the cause of the performance issues pertaining to metrics on th
 Which of the following is the tool you should use?
 
 - A. Azure Traffic Analytics
-- B. Azure Monitor
+- ✅ B. Azure Monitor
 - C. Azure Activity Log
 - D. Azure Advisor
 
@@ -597,7 +602,7 @@ Which of the following VMs can you back up? Choose all that apply.
 - D. VMs that run Debian 8.2+.
 - E. VMs that have been shut down.
 
-**Correct Answer:** ABCDE
+**Correct Answer:** ✅ ABCDE
 
 ---
 
@@ -612,7 +617,7 @@ Solution: You create a PowerShell script that runs the New-AzureADUser cmdlet fo
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -629,7 +634,7 @@ Solution: From Azure AD in the Azure portal, you use the Bulk create user operat
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -645,7 +650,7 @@ You need to create a guest user account in contoso.com for each of the 500 exter
 Solution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -663,7 +668,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0003600001.jpg)
 
-**Correct Answer:** ![](images/0003700001.jpg)
+**Correct Answer:** ✅ ![](images/0003700001.jpg)
 
 _Explanation:_
 The Network Contributor role lets you manage networks, but not access them.
