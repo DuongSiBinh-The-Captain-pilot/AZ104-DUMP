@@ -8,7 +8,7 @@ What should you do?
 
 - A. Create Azure Management Groups for each department.
 - B. Create a resource group for each department.
-- ➡️ C. Assign tags to the virtual machines.
+- ✅ C. Assign tags to the virtual machines.
 - D. Modify the settings of the virtual machines.
 
 **Correct Answer:** C
@@ -25,7 +25,7 @@ Solution: You access the multi-factor authentication page to alter the user sett
 Does the solution meet the goal?
 
 - A. Yes
-- ➡️ B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -41,7 +41,7 @@ Solution: You access the Azure portal to alter the session control of the Azure 
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -56,7 +56,7 @@ The policy must be configured to require members of the Global Administrators gr
 Solution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy.
 Does the solution meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
