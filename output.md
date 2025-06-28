@@ -8,7 +8,7 @@ What should you do?
 
 - A. Create Azure Management Groups for each department.
 - B. Create a resource group for each department.
-- C. Assign tags to the virtual machines.
+- **C. Assign tags to the virtual machines.**
 - D. Modify the settings of the virtual machines.
 
 **Correct Answer:** C
@@ -25,7 +25,7 @@ Solution: You access the multi-factor authentication page to alter the user sett
 Does the solution meet the goal?
 
 - A. Yes
-- B. No
+- **B. No**
 
 **Correct Answer:** B
 
