@@ -685,7 +685,7 @@ You need to ensure that access to AKS1 can be granted to the contoso.com users.
 What should you do first?
 
 - A. From contoso.com, modify the Organization relationships settings.
-- B. From contoso.com, create an OAuth 2.0 authorization endpoint.
+- ✅ B. From contoso.com, create an OAuth 2.0 authorization endpoint.
 - C. Recreate AKS1.
 - D. From AKS1, create a namespace.
 
@@ -701,9 +701,9 @@ You need to create groups for the users. The solution must ensure that the group
 Which two groups should you create? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
 
-- A. a Microsoft 365 group that uses the Assigned membership type
+- ✅ A. a Microsoft 365 group that uses the Assigned membership type
 - B. a Security group that uses the Assigned membership type
-- C. a Microsoft 365 group that uses the Dynamic User membership type
+- ✅ C. a Microsoft 365 group that uses the Dynamic User membership type
 - D. a Security group that uses the Dynamic User membership type
 - E. a Security group that uses the Dynamic Device membership type
 
@@ -725,7 +725,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0004100001.jpg)
 
-**Correct Answer:** ![](images/0004100002.jpg)
+**Correct Answer:** ✅ 
+![](images/0004100002.jpg)
 
 _Explanation:_
 Reference:
@@ -747,7 +748,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0004300001.jpg)
 
-**Correct Answer:** ![](images/0004300002.jpg)
+**Correct Answer:** ✅ 
+![](images/0004300002.jpg)
 
 _Explanation:_
 Box 1: No -
@@ -768,7 +770,7 @@ You have an Azure policy as shown in the following exhibit:
 What is the effect of the policy?
 
 - A. You are prevented from creating Azure SQL servers anywhere in Subscription 1.
-- B. You can create Azure SQL servers in ContosoRG1 only.
+- ✅ B. You can create Azure SQL servers in ContosoRG1 only.
 - C. You are prevented from creating Azure SQL Servers in ContosoRG1 only.
 - D. You can create Azure SQL servers in any resource group within Subscription 1.
 
@@ -790,7 +792,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0004700001.png)
 
-**Correct Answer:** ![](images/0004800001.png)
+**Correct Answer:** ✅ 
+![](images/0004800001.png)
 
 _Explanation:_
 VNET1: Department: D1, and Label:Value1 only.
@@ -816,7 +819,7 @@ Which resources should you identify?
 
 - A. VM1, storage1, VNET1, and VM1Managed only
 - B. VM1 and VM1Managed only
-- C. VM1, storage1, VNET1, VM1Managed, and RVAULT1
+- ✅ C. VM1, storage1, VNET1, VM1Managed, and RVAULT1
 - D. RVAULT1 only
 
 **Correct Answer:** C
@@ -833,7 +836,7 @@ What should you do?
 
 - A. From Azure PowerShell, run the Set-AzApiManagementSubscription cmdlet
 - B. From the Azure portal, register the Microsoft.Marketplace resource provider
-- C. From Azure PowerShell, run the Set-AzMarketplaceTerms cmdlet
+- ✅ C. From Azure PowerShell, run the Set-AzMarketplaceTerms cmdlet
 - D. From the Azure portal, assign the Billing administrator role to Admin1
 
 **Correct Answer:** C
@@ -848,7 +851,7 @@ You need to assign the User administrator administrative role to AdminUser1.
 What should you do from the user account properties?
 
 - A. From the Licenses blade, assign a new license
-- B. From the Directory role blade, modify the directory role
+- ✅ B. From the Directory role blade, modify the directory role
 - C. From the Groups blade, invite the user account to a new group
 
 **Correct Answer:** B
@@ -862,7 +865,7 @@ You purchase 10 Azure AD Premium P2 licenses for the tenant.
 You need to ensure that 10 users can use all the Azure AD Premium features.
 What should you do?
 
-- A. From the Licenses blade of Azure AD, assign a license
+- ✅ A. From the Licenses blade of Azure AD, assign a license
 - B. From the Groups blade of each user, invite the users to a group
 - C. From the Azure AD domain, add an enterprise application
 - D. From the Directory role blade of each user, modify the directory role
@@ -880,7 +883,7 @@ What should you do first?
 
 - A. Create an automation runbook
 - B. Deploy a function app
-- C. Deploy the IT Service Management Connector (ITSM)
+- ✅ C. Deploy the IT Service Management Connector (ITSM)
 - D. Create a notification
 
 **Correct Answer:** C
@@ -893,7 +896,7 @@ You sign up for Azure Active Directory (Azure AD) Premium P2.
 You need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain.
 What should you configure in Azure AD?
 
-- A. Device settings from the Devices blade
+- ✅ A. Device settings from the Devices blade
 - B. Providers from the MFA Server blade
 - C. User settings from the Users blade
 - D. General settings from the Groups blade
@@ -916,7 +919,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0005400002.jpg)
 
-**Correct Answer:** ![](images/0005400003.jpg)
+**Correct Answer:** ✅ 
+![](images/0005400003.jpg)
 
 _Explanation:_
 Box 1: Yes -
@@ -951,7 +955,7 @@ What should you do first?
 
 - A. Delete VM1
 - B. Stop VM1
-- C. Stop the backup of SQLDB01
+- ✅ C. Stop the backup of SQLDB01
 - D. Delete sa001
 
 **Correct Answer:** C
@@ -969,7 +973,7 @@ You need to ensure that User1 can assign the Reader role for VNet1 to other user
 What should you do?
 
 - A. Remove User1 from the Security Reader and Reader roles for Subscription1.
-- B. Assign User1 the User Access Administrator role for VNet1.
+- ✅ B. Assign User1 the User Access Administrator role for VNet1.
 - C. Assign User1 the Network Contributor role for VNet1.
 - D. Assign User1 the Network Contributor role for RG1.
 
@@ -985,7 +989,7 @@ You add contoso.com as a custom domain name to Azure AD.
 You need to ensure that Azure can verify the domain name.
 Which type of DNS record should you create?
 
-- A. MX
+- ✅ A. MX
 - B. NSEC
 - C. PTR
 - D. RRSIG
@@ -1005,7 +1009,7 @@ Solution: On Subscription1, you assign the DevTest Labs User role to the Develop
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -1022,7 +1026,7 @@ Solution: On Subscription1, you assign the Logic App Operator role to the Develo
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -1038,7 +1042,7 @@ You need to provide the Developers group with the ability to create Azure logic 
 Solution: On Dev, you assign the Contributor role to the Developers group.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -1054,7 +1058,8 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0006100001.png)
 
-**Correct Answer:** ![](images/0006200001.png)
+**Correct Answer:** ✅ 
+![](images/0006200001.png)
 
 _Explanation:_
 Box 1: Assign a tag to each resource.
@@ -1079,7 +1084,7 @@ You need to view the error events from a table named Event.
 Which query should you run in Workspace1?
 
 - A. Get-Event Event | where {$_.EventType == "error"}
-- B. search in (Event) "error"
+- ✅ B. search in (Event) "error"
 - C. select * from Event where EventType == "error"
 - D. search in (Event) * | where EventType -eq "error"
 
@@ -1099,7 +1104,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0006600001.png)
 
-**Correct Answer:** ![](images/0006600002.png)
+**Correct Answer:** ✅ ![](images/0006600002.png)
 
 _Explanation:_
 Box 1: Yes -
@@ -1119,7 +1124,7 @@ RG1 has a web app named WebApp1. WebApp1 is located in West Europe.
 You move WebApp1 to RG2.
 What is the effect of the move?
 
-- A. The App Service plan for WebApp1 remains in West Europe. Policy2 applies to WebApp1.
+- ✅ A. The App Service plan for WebApp1 remains in West Europe. Policy2 applies to WebApp1.
 - B. The App Service plan for WebApp1 moves to North Europe. Policy2 applies to WebApp1.
 - C. The App Service plan for WebApp1 remains in West Europe. Policy1 applies to WebApp1.
 - D. The App Service plan for WebApp1 moves to North Europe. Policy1 applies to WebApp1.
@@ -1141,7 +1146,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0006900001.jpg)
 
-**Correct Answer:** ![](images/0007000001.jpg)
+**Correct Answer:** ✅ 
+![](images/0007000001.jpg)
 
 _Explanation:_
 Reference:
@@ -1158,11 +1164,11 @@ You need to ensure that the connections to App1 are spread across all the virtua
 What are two possible Azure services that you can use? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
 
-- A. an internal load balancer
+- ✅ A. an internal load balancer
 - B. a public load balancer
 - C. an Azure Content Delivery Network (CDN)
 - D. Traffic Manager
-- E. an Azure Application Gateway
+- ✅ E. an Azure Application Gateway
 
 **Correct Answer:** AE
 
@@ -1176,7 +1182,7 @@ You need to quickly identify underutilized virtual machines that can have their 
 Which blade should you use?
 
 - A. Monitor
-- B. Advisor
+- ✅ B. Advisor
 - C. Metrics
 - D. Customer insights
 
@@ -1194,7 +1200,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0007300001.png)
 
-**Correct Answer:** ![](images/0007500001.png)
+**Correct Answer:** ✅ ![](images/0007500001.png)
 
 _Explanation:_
 Reference:
@@ -1211,7 +1217,7 @@ Admin1 attempts to invite the external partner to sign in to the Azure AD tenant
 You need to ensure that Admin1 can invite the external partner to sign in to the Azure AD tenant.
 What should you do?
 
-- A. From the Users settings blade, modify the External collaboration settings.
+- ✅ A. From the Users settings blade, modify the External collaboration settings.
 - B. From the Custom domain names blade, add a custom domain.
 - C. From the Organizational relationships blade, add an identity provider.
 - D. From the Roles and administrators blade, assign the Security administrator role to Admin1.
@@ -1228,7 +1234,7 @@ What should you do?
 
 - A. Assign the Owner role for the Azure Subscription to User1, and then modify the default conditional access policies.
 - B. Assign the Owner role for the Azure subscription to User1, and then instruct User1 to configure access management for Azure resources.
-- C. Assign the Global administrator role to User1, and then instruct User1 to configure access management for Azure resources.
+- ✅ C. Assign the Global administrator role to User1, and then instruct User1 to configure access management for Azure resources.
 - D. Create a new management group and delegate User1 as the owner of the new management group.
 
 **Correct Answer:** C
@@ -1247,7 +1253,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0007900001.png)
 
-**Correct Answer:** ![](images/0008000001.png)
+**Correct Answer:** ✅ ![](images/0008000001.png)
 
 _Explanation:_
 Box 1: Group 1 only -
@@ -1270,7 +1276,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0008200001.png)
 
-**Correct Answer:** ![](images/0008300001.png)
+**Correct Answer:** ✅ ![](images/0008300001.png)
 
 _Explanation:_
 Box 1: User1 and User3 only -
@@ -1290,7 +1296,7 @@ You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 i
 Solution: You assign the Network Contributor role at the subscription level to Admin1.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -1305,9 +1311,10 @@ You need to ensure that an Azure Active Directory (Azure AD) user named Admin1 i
 Solution: You assign the Owner role at the subscription level to Admin1.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
-
+Your account must meet one of the following to enable tra®c analytics:
+Your account must have any one of the following Azure roles at the subscription scope: owner, contributor, reader, or network contributor.
 **Correct Answer:** A
 
 ---
@@ -1321,10 +1328,11 @@ Solution: You assign the Reader role at the subscription level to Admin1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
-**Correct Answer:** B
-
+**Correct Answer:** B 
+Your account must meet one of the following to enable tra®c analytics:
+Your account must have any one of the following Azure roles at the subscription scope: owner, contributor, reader, or network contributor.
 ---
 
 ### Question 76: Question #36 Topic 2
@@ -1335,11 +1343,16 @@ Which role-based access control (RBAC) role should you assign to User1?
 
 - A. Owner
 - B. Virtual Machine Contributor
-- C. Contributor
+- ✅ C. Contributor
 - D. Virtual Machine Administrator Login
 
 **Correct Answer:** C
-
+Contributor: Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC
+Incorrect Answers:
+A: Owner: Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.
+B: Virtual Machine Contributor: Lets you manage virtual machines, but not access to them, and not the virtual network or storage account
+they're connected to.
+D: Virtual Machine Administrator Login: View Virtual Machines in the portal and login as administrator
 ---
 
 ### Question 77: Question #37 Topic 2
@@ -1356,7 +1369,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0008900001.jpg)
 
-**Correct Answer:** ![](images/0008900002.jpg)
+**Correct Answer:** ✅ 
+![](images/0008900002.jpg)
 
 _Explanation:_
 Box 1: No -
@@ -1375,7 +1389,7 @@ VM1 runs services that will be used to deploy resources to RG1.
 You need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity of VM1.
 What should you do first?
 
-- A. From the Azure portal, modify the Managed Identity settings of VM1
+- ✅ A. From the Azure portal, modify the Managed Identity settings of VM1
 - B. From the Azure portal, modify the Access control (IAM) settings of RG1
 - C. From the Azure portal, modify the Access control (IAM) settings of VM1
 - D. From the Azure portal, modify the Policies settings of RG1
@@ -1394,7 +1408,7 @@ You need to delete TestRG.
 What should you do first?
 
 - A. Modify the backup configurations of VM1 and modify the resource lock type of VNET1
-- B. Remove the resource lock from VNET1 and delete all data in Vault1
+- ✅ B. Remove the resource lock from VNET1 and delete all data in Vault1
 - C. Turn off VM1 and remove the resource lock from VNET1
 - D. Turn off VM1 and delete all data in Vault1
 
@@ -1408,7 +1422,7 @@ You have an Azure DNS zone named adatum.com.
 You need to delegate a subdomain named research.adatum.com to a different DNS server in Azure.
 What should you do?
 
-- A. Create an NS record named research in the adatum.com zone.
+- ✅ A. Create an NS record named research in the adatum.com zone.
 - B. Create a PTR record named research in the adatum.com zone.
 - C. Modify the SOA record of adatum.com.
 - D. Create an A record named *.research in the adatum.com zone.
@@ -1427,7 +1441,8 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0009300001.jpg)
 
-**Correct Answer:** ![](images/0009300002.jpg)
+**Correct Answer:** ✅ 
+![](images/0009300002.jpg)
 
 _Explanation:_
 1. Add the custom domain name to your directory
@@ -1445,7 +1460,7 @@ You need to view the error events from a table named Event.
 Which query should you run in Workspace1?
 
 - A. Get-Event Event | where {$_.EventType == "error"}
-- B. Event | search "error"
+- ✅ B. Event | search "error"
 - C. select * from Event where EventType == "error"
 - D. search in (Event) * | where EventType ג€"eq ג€errorג€
 
@@ -1463,7 +1478,7 @@ What should you do?
 - A. Create NS records in contoso.com.
 - B. Modify the SOA record in the DNS domain registrar.
 - C. Create the SOA record in contoso.com.
-- D. Modify the NS records in the DNS domain registrar.
+- ✅ D. Modify the NS records in the DNS domain registrar.
 
 **Correct Answer:** D
 
@@ -1483,7 +1498,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0009700001.png)
 
-**Correct Answer:** ![](images/0009700002.png)
+**Correct Answer:** ✅ 
+![](images/0009700002.png)
 
 _Explanation:_
 Reference:
@@ -1502,7 +1518,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0009800001.jpg)
 
-**Correct Answer:** ![](images/0009900001.jpg)
+**Correct Answer:** ✅ 
+![](images/0009900001.jpg)
 
 _Explanation:_
 Box 1: User1 and User3 only.
@@ -1526,7 +1543,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0010100001.png)
 
-**Correct Answer:** ![](images/0010200001.png)
+**Correct Answer:** ✅ 
+![](images/0010200001.png)
 
 _Explanation:_
 Box 1: Sub1, RG1, and VM1 only -
@@ -1546,7 +1564,7 @@ You need to create and upload a file for the bulk delete.
 Which user attributes should you include in the file?
 
 - A. The user principal name and usage location of each user only
-- B. The user principal name of each user only
+- ✅ B. The user principal name of each user only
 - C. The display name of each user only
 - D. The display name and usage location of each user only
 - E. The display name and user principal name of each user only
@@ -1574,7 +1592,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0010500001.png)
 
-**Correct Answer:** ![](images/0010500002.jpg)
+**Correct Answer:** ✅ 
+![](images/0010500002.jpg)
 
 _Explanation:_
 Box 1: No -
@@ -1599,7 +1618,7 @@ Solution: You assign the Traffic Manager Contributor role at the subscription le
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -1612,7 +1631,7 @@ You need to grant user management permissions to a local administrator in each o
 What should you use?
 
 - A. Azure AD roles
-- B. administrative units
+- ✅ B. administrative units
 - C. access packages in Azure AD entitlement management
 - D. Azure roles
 
@@ -1630,7 +1649,7 @@ You need to provide the Developers group with the ability to create Azure logic 
 Solution: On Dev, you assign the Logic App Contributor role to the Developers group.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -1648,7 +1667,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0010900001.jpg)
 
-**Correct Answer:** ![](images/0010900002.jpg)
+**Correct Answer:** ✅ 
+![](images/0010900002.jpg)
 
 _Explanation:_
 Reference:
@@ -1667,7 +1687,7 @@ You need to ensure that User1 can assign the Reader role for VNet1 to other user
 What should you do?
 
 - A. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
-- B. Assign User1 the Owner role for VNet1.
+- ✅ B. Assign User1 the Owner role for VNet1.
 - C. Assign User1 the Contributor role for VNet1.
 - D. Assign User1 the Network Contributor role for VNet1.
 
@@ -1685,7 +1705,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0011300001.png)
 
-**Correct Answer:** ![](images/0011400001.png)
+**Correct Answer:** ✅ dataActions/ assignableScopes
 
 _Explanation:_
 Box 1: roletype -
@@ -1711,7 +1731,7 @@ The subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant 
 You need to grant Group1 the Storage File Data SMB Share Elevated Contributor role for share1.
 What should you do first?
 
-- A. Enable Active Directory Domain Service (AD DS) authentication for storage1.
+- ✅ A. Enable Active Directory Domain Service (AD DS) authentication for storage1.
 - B. Grant share-level permissions by using File Explorer.
 - C. Mount share1 by using File Explorer.
 - D. Create a private endpoint.
@@ -1731,7 +1751,7 @@ You need to ensure that Group1 can manage role assignments for the existing subs
 What should you do?
 
 - A. Assign Group1 the Owner role for the root management group.
-- B. Assign Group1 the User Access Administrator role for the root management group.
+- ✅ B. Assign Group1 the User Access Administrator role for the root management group.
 - C. Create a new management group and assign Group1 the User Access Administrator role for the group.
 - D. Create a new management group and assign Group1 the Owner role for the group.
 
@@ -1750,7 +1770,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0011900001.png)
 
-**Correct Answer:** ![](images/0011900002.png)
+**Correct Answer:** ✅ 
+![](images/0011900002.png)
 
 _Explanation:_
 Box 1: Tenant Root Group, ManagementGroup1, Subscription1, RG1, and VM1
@@ -1774,11 +1795,11 @@ You need to create new user accounts in external.contoso.onmicrosoft.com.
 Solution: You instruct User2 to create the user accounts.
 Does that meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** B
-
+Only a global administrator can add users to this tenant.
 ---
 
 ### Question 99: Question #59 Topic 2
@@ -1793,7 +1814,7 @@ Solution: You instruct User4 to create the user accounts.
 Does that meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -1811,7 +1832,7 @@ Solution: You instruct User3 to create the user accounts.
 Does that meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -1824,7 +1845,7 @@ An administrator creates a custom role that has an assignable scope to a resourc
 You need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort.
 What should you do?
 
-- A. Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.
+- ✅ A. Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.
 - B. Create a new custom role for Sub1. Create a new custom role for Sub2. Remove the role from RG1.
 - C. Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.
 - D. Select the custom role and add Sub1 to the assignable scopes. Remove RG1 from the assignable scopes. Create a new custom role for Sub2.
@@ -1842,9 +1863,9 @@ Which two actions can User1 perform? Each correct answer presents a complete sol
 NOTE: Each correct selection is worth one point.
 
 - A. Assign roles to User2 for storageacct1234.
-- B. Upload blob data to storageacct1234.
+- ✅ B. Upload blob data to storageacct1234.
 - C. Modify the firewall of storageacct1234.
-- D. View blob data in storageacct1234.
+- ✅ D. View blob data in storageacct1234.
 - E. View file shares in storageacct1234.
 
 **Correct Answer:** BD
@@ -1858,7 +1879,7 @@ You need to view the error events from a table named Event.
 Which query should you run in Workspace1?
 
 - A. select * from Event where EventType == "error"
-- B. Event | search "error"
+- ✅ B. Event | search "error"
 - C. Event | where EventType is "error"
 - D. Get-Event Event | where {$_.EventType == "error"}
 
@@ -1875,7 +1896,7 @@ What should you do?
 
 - A. Assign the Owner role to the developers
 - B. Configure app-level credentials for FTPS
-- C. Assign the Website Contributor role to the developers
+- ✅ C. Assign the Website Contributor role to the developers
 - D. Configure user-level credentials for FTPS
 
 **Correct Answer:** C
@@ -1892,10 +1913,10 @@ You need to create a guest user account in contoso.com for each of the 500 exter
 Solution: From Azure AD in the Azure portal, you use the Bulk invite users operation.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
-**Correct Answer:** B
+**Correct Answer:** A
 
 ---
 
@@ -1910,7 +1931,8 @@ Which roles can you clone to create the new roles? To answer, select the appropr
 NOTE: Each correct selection is worth one point.
 ![](images/image568.png)
 
-**Correct Answer:** ![](images/image569.png)
+**Correct Answer:** ✅ 
+![](images/image569.png)
 
 ---
 
@@ -1927,7 +1949,8 @@ Which RBAC role should you assign to each user? To answer, drag the appropriate 
 NOTE: Each correct selection is worth one point.
 ![](images/image570.png)
 
-**Correct Answer:** ![](images/image571.png)
+**Correct Answer:** ✅ 
+![](images/image571.png)
 
 ---
 
@@ -1939,7 +1962,7 @@ You need to ensure that the virtual machines can access Vault1. The solution mus
 What should you configure as the destination of the outbound security rule for NSG1?
 
 - A. an application security group
-- B. a service tag
+- ✅ B. a service tag
 - C. an IP address range
 
 **Correct Answer:** B
@@ -1956,7 +1979,7 @@ You assign the Azure Active Directory Premium Plan 2 license to Group1 and User4
 Which users are assigned the Azure Active Directory Premium Plan 2 license?
 
 - A. User4 only
-- B. User1 and User4 only
+- ✅ B. User1 and User4 only
 - C. User1, User2, and User4 only
 - D. User1, User2, User3, and User4
 
@@ -1978,7 +2001,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image576.png)
 
-**Correct Answer:** ![](images/image577.png)
+**Correct Answer:** No/ No/ Yes
 
 ---
 
@@ -1994,7 +2017,7 @@ What should you do?
 
 - A. Assign User1 the Network Contributor role for VNet1.
 - B. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
-- C. Assign User1 the Owner role for VNet1.
+- ✅ C. Assign User1 the Owner role for VNet1.
 - D. Assign User1 the Network Contributor role for RG1.
 
 **Correct Answer:** C
@@ -2015,7 +2038,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image630.png)
 
-**Correct Answer:** ![](images/image631.png)
+**Correct Answer:** ✅ 
+![](images/image631.png)
 
 ---
 
@@ -2030,7 +2054,7 @@ You need to ensure that User1 can assign the Reader role for VNet1 to other user
 What should you do?
 
 - A. Remove User1 from the Security Reader role for Subscript on 1. Assign User1 the Contributor role for RG1.
-- B. Assign User1 the Owner role for VNet1.
+- ✅ B. Assign User1 the Owner role for VNet1.
 - C. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription 1.
 - D. Assign User1 the Contributor role for VNet1.
 
@@ -2047,7 +2071,7 @@ You need to ensure that all the traffic from VM1 to storage1 travels across the 
 What should you configure?
 
 - A. Azure Application Gateway
-- B. private endpoints
+- ✅ B. private endpoints
 - C. a network security group (NSG)
 - D. Azure Virtual WAN
 
@@ -2068,7 +2092,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image649.png)
 
-**Correct Answer:** ![](images/image650.png)
+**Correct Answer:** ✅ 
+![](images/image650.png)
 
 ---
 
@@ -2083,7 +2108,7 @@ You need to ensure that User1 can assign the Reader role for VNet1 to other user
 What should you do?
 
 - A. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
-- B. Assign User1 the Access Administrator role for VNet1.
+- ✅ B. Assign User1 the Access Administrator role for VNet1.
 - C. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
 - D. Assign User1 the Network Contributor role for RG1.
 
@@ -2104,7 +2129,8 @@ You create the following role assignments for MG1:
 You assign User the Virtual Machine Contributor role for Sub1 and Sub2.
 ![](images/image655.png)
 
-**Correct Answer:** ![](images/image656.png)
+**Correct Answer:** ✅ 
+![](images/image656.png)
 
 ---
 
@@ -2115,7 +2141,7 @@ You have an Azure subscription that contains the resources shown in the followin
 You need to assign User1 the Storage File Data SMB Share Contributor role for share1.
 What should you do first?
 
-- A. Enable identity-based data access for the file shares in storage1.
+- ✅ A. Enable identity-based data access for the file shares in storage1.
 - B. Modify the security profile for the file shares in storage1.
 - C. Select Default to Azure Active Directory authorization in the Azure portal for storage1.
 - D. Configure Access control (IAM) for share1.
@@ -2135,7 +2161,7 @@ You need to ensure that User1 can assign the Reader role for VNet1 to other user
 What should you do?
 
 - A. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
-- B. Assign User1 the User Access Administrator role for VNet1.
+- ✅ B. Assign User1 the User Access Administrator role for VNet1.
 - C. Remove User1 from the Security Reader and Reader roles for Subscription1.
 - D. Assign User1 the Contributor role for VNet1.
 
@@ -2158,7 +2184,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image669.png)
 
-**Correct Answer:** ![](images/image670.png)
+**Correct Answer:** ✅ Yes/ No/ No
 
 ---
 
@@ -2173,7 +2199,8 @@ For which users can you modify the attributes from Azure AD? To answer, select t
 NOTE: Each correct selection is worth one point.
 ![](images/image684.png)
 
-**Correct Answer:** ![](images/image685.png)
+**Correct Answer:** ✅ 
+![](images/image685.png)
 
 ---
 
@@ -2188,7 +2215,7 @@ Solution: You create a PowerShell script that runs the New-MgUser cmdlet for eac
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -2204,7 +2231,7 @@ You need to create a guest user account in contoso.com for each of the 500 exter
 Solution: You create a PowerShell script that runs the New-MgInvitation cmdlet for each external user.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -2223,7 +2250,7 @@ What should you do?
 
 - A. Assign User1 the Contributor role for VNet1.
 - B. Assign User1 the Network Contributor role for VNet1.
-- C. Assign User1 the User Access Administrator role for VNet1.
+- ✅ C. Assign User1 the User Access Administrator role for VNet1.
 - D. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
 
 **Correct Answer:** C
@@ -2243,7 +2270,7 @@ What should you do?
 - A. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
 - B. Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.
 - C. Assign User1 the Network Contributor role for VNet1.
-- D. Assign User1 the User Access Administrator role for VNet1.
+- ✅ D. Assign User1 the User Access Administrator role for VNet1.
 
 **Correct Answer:** D
 
@@ -2259,7 +2286,8 @@ Which authentication method should you use for each type of storage? To answer, 
 NOTE: Each correct selection is worth one point.
 ![](images/image691.png)
 
-**Correct Answer:** ![](images/image692.png)
+**Correct Answer:** ✅ 
+![](images/image692.png)
 
 ---
 
@@ -2274,7 +2302,8 @@ Which two settings should you configure from the Overview blade? To answer, sele
 NOTE: Each correct answer is worth one point.
 ![](images/image693.png)
 
-**Correct Answer:** ![](images/image694.png)
+**Correct Answer:** ✅ 
+![](images/image694.png)
 
 ---
 
@@ -2287,7 +2316,7 @@ Which role should you assign?
 
 - A. Storage Account Contributor
 - B. Contributor
-- C. Storage Blob Data Contributor
+- ✅ C. Storage Blob Data Contributor
 - D. Reader and Data Access
 
 **Correct Answer:** C
@@ -2306,7 +2335,7 @@ What should you do?
 
 - A. Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.
 - B. Assign User1 the Contributor role for VNet1.
-- C. Assign User1 the Owner role for VNet1.
+- ✅ C. Assign User1 the Owner role for VNet1.
 - D. Assign User1 the Network Contributor role for RG1.
 
 **Correct Answer:** C
@@ -2321,7 +2350,7 @@ You purchase Azure Active Directory Premium P2 licenses.
 To which groups can you assign a license?
 
 - A. Group1 only
-- B. Group1 and Group3 only
+- ✅ B. Group1 and Group3 only
 - C. Group3 and Group4 only
 - D. Group1, Group2, and Group3 only
 - E. Group1, Group2, Group3, and Group4
@@ -2340,7 +2369,8 @@ How should you complete the dynamic membership rule? To answer, select the appro
 NOTE: Each correct answer is worth one point.
 ![](images/image697.png)
 
-**Correct Answer:** ![](images/image698.png)
+**Correct Answer:** ✅ 
+![](images/image698.png)
 
 ---
 
@@ -2356,7 +2386,8 @@ Which two settings should you modify? To answer, select the appropriate settings
 NOTE: Each correct answer is worth one point.
 ![](images/image699.png)
 
-**Correct Answer:** ![](images/image700.png)
+**Correct Answer:** ✅ 
+![](images/image700.png)
 
 ---
 
@@ -2377,7 +2408,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image705.png)
 
-**Correct Answer:** ![](images/image706.png)
+**Correct Answer:** ✅ No/ No/ Yes
 
 ---
 
@@ -2392,7 +2423,7 @@ Solution: You create a PowerShell script that runs the New-MgUser cmdlet for eac
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -2411,7 +2442,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image765.png)
 
-**Correct Answer:** ![](images/image766.png)
+**Correct Answer:** ✅ No/ No/ Yes
 
 ---
 
@@ -2424,7 +2455,7 @@ You need to ensure that all the traffic from VM1 to storage1 travels across the 
 What should you configure?
 
 - A. Azure AD Application Proxy
-- B. private endpoints
+- ✅ B. private endpoints
 - C. a network security group (NSG)
 - D. Azure Peering Service
 
@@ -2441,7 +2472,7 @@ You need to ensure that all the traffic from VM1 to storage1 travels across the 
 What should you configure?
 
 - A. Azure AD Application Proxy
-- B. service endpoints
+- ✅ B. service endpoints
 - C. a network security group (NSG)
 - D. Azure Firewall
 
@@ -2458,7 +2489,7 @@ You need to ensure that all the traffic from VM1 to storage1 travels across the 
 What should you configure?
 
 - A. Azure Application Gateway
-- B. service endpoints
+- ✅ B. service endpoints
 - C. a network security group (NSG)
 - D. Azure Peering Service
 
@@ -2475,7 +2506,7 @@ To what can you add Admin1 as a co-administrator?
 
 - A. RG1
 - B. MG1
-- C. Sub1
+- ✅ C. Sub1
 - D. VM1
 
 **Correct Answer:** C
@@ -2494,7 +2525,9 @@ Which users and groups can you delete? To answer, select the appropriate options
 NOTE: Each correct selection is worth one point.
 ![](images/image801.png)
 
-**Correct Answer:** ![](images/image802.png)
+**Correct Answer:** ✅ 
+Users: 1 2 3 4
+Groups: 2 4
 
 ---
 
@@ -2506,7 +2539,7 @@ You need to ensure that data transfers between storage1 and VM1 do NOT traverse 
 What should you configure for storage1?
 
 - A. data protection
-- B. a private endpoint
+- ✅ B. a private endpoint
 - C. Public network access in the Firewalls and virtual networks settings
 - D. a shared access signature (SAS)
 
@@ -2528,8 +2561,11 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image821.png)
 
-**Correct Answer:** ![](images/image822.png)
-
+**Correct Answer:** ✅ 
+![](images/image822.png)
+1. User 1 is a contributor of MG2, which cointains sub 3 and VM1.
+2. User 2 is a SA Cont on storage 1 only. Can only modify tht.
+3. User 3 is a UA Admin at tenant group level. Can assign roles to anything below.
 ---
 
 ### Question 143: Question #103 Topic 2
@@ -2541,7 +2577,7 @@ You need to ensure that all the traffic from VM1 to storage1 travels across the 
 What should you configure?
 
 - A. a network security group (NSG)
-- B. private endpoints
+- ✅ B. private endpoints
 - C. Microsoft Entra Application Proxy
 - D. Azure Virtual WAN
 
@@ -2559,10 +2595,10 @@ NOTE: Each correct selection is worth one point.
 
 - A. Create groups that use the Assigned membership type.
 - B. Create an Azure Resource Manager (ARM) template.
-- C. Create groups that use the Dynamic User membership type.
+- ✅ C. Create groups that use the Dynamic User membership type.
 - D. Write a PowerShell script that parses an import file.
 - E. Create an XML file that contains user information and the appropriate attributes.
-- F. Create a CSV file that contains user information and the appropriate attributes.
+- ✅ F. Create a CSV file that contains user information and the appropriate attributes.
 
 **Correct Answer:** CF
 
