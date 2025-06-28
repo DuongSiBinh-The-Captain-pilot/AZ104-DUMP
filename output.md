@@ -2613,7 +2613,7 @@ What should you configure?
 - A. a backup vault
 - B. redundancy for storage1
 - C. lifecycle management for storage1
-- D. an Azure key vault
+- ✅ D. an Azure key vault
 - E. a Recovery Services vault
 
 **Correct Answer:** D
@@ -2630,7 +2630,7 @@ For which identities can you enable SSPR in the Azure portal?
 - A. User1 only
 - B. Group1 only
 - C. User1 and Group1 only
-- D. Group1 and Group2 only
+- ✅ D. Group1 and Group2 only
 - E. User1, Group1, and Group2
 
 **Correct Answer:** D
@@ -2646,7 +2646,8 @@ You need to ensure that when a new Microsoft 365 group is created, the group nam
 Which three actions should you perform in sequence in the Microsoft Entra admin center? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 ![](images/image849.png)
 
-**Correct Answer:** ![](images/image850.png)
+**Correct Answer:** ✅ 
+![](images/image850.png)
 
 ---
 
@@ -2662,7 +2663,8 @@ Which users and groups can be deleted? To answer, select the appropriate options
 NOTE: Each correct selection is worth one point.
 ![](images/image860.png)
 
-**Correct Answer:** ![](images/image861.png)
+**Correct Answer:** ✅ 
+![](images/image861.png)
 
 ---
 
@@ -2677,7 +2679,9 @@ What should you create for app1 to access the key vault, and from which key vaul
 NOTE: Each correct selection is worth one point.
 ![](images/image863.png)
 
-**Correct Answer:** ![](images/image864.png)
+**Correct Answer:** ✅ 
+Create a: Managed Identity
+Use the secret from: Vault1, Vault2, or Vault3
 
 ---
 
@@ -2692,7 +2696,7 @@ What should you do in the Microsoft Entra admin center?
 - A. From Cross-tenant access settings, configure the Tenant restrictions settings.
 - B. From Cross-tenant access settings, configure the Microsoft cloud settings.
 - C. From External collaboration settings, configure the Guest user access restrictions settings.
-- D. From External collaboration settings, configure the Collaboration restrictions settings.
+- ✅ D. From External collaboration settings, configure the Collaboration restrictions settings.
 
 **Correct Answer:** D
 
@@ -2708,8 +2712,8 @@ NOTE: Each correct selection is worth one point.
 - A. Owner
 - B. Storage Account Contributor
 - C. Storage Account Backup Contributor
-- D. Storage Blob Data Contributor
-- E. Storage Blob Data Owner
+- ✅ D. Storage Blob Data Contributor
+- ✅ E. Storage Blob Data Owner
 - F. Storage Blob Delegator
 
 **Correct Answer:** DE
@@ -2784,7 +2788,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image873.png)
 
-**Correct Answer:** ![](images/image874.png)
+**Correct Answer:** ✅ No/ No/ No
 
 ---
 
@@ -2797,7 +2801,7 @@ The tenant contains the identities shown in the following table.
 You purchase a Microsoft Fabric license.
 To which identities can you assign the license?
 
-- A. User1 only
+- ✅ A. User1 only
 - B. User1 and Group1 only
 - C. User1 and Group2 only
 - D. User1, Group1, and Group2
@@ -2816,7 +2820,7 @@ What should you do for storage?
 - A. Enable a read-only lock.
 - B. Configure an alert rule.
 - C. Add a lifecycle management rule.
-- D. Set Allow recommended upper limit for shared access signature (SAS) expiry interval to Enabled.
+- ✅ D. Set Allow recommended upper limit for shared access signature (SAS) expiry interval to Enabled.
 
 **Correct Answer:** D
 
@@ -2833,7 +2837,7 @@ What should you identify?
 - A. storage1
 - B. storage2
 - C. storage3
-- D. storage4
+- ✅ D. storage4
 
 **Correct Answer:** D
 
@@ -2849,7 +2853,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0014200001.jpg)
 
-**Correct Answer:** ![](images/0014200002.jpg)
+**Correct Answer:** ✅ ![](images/0014200002.jpg)
 
 _Explanation:_
 Box 1: storageaccount1 and storageaccount2 only
@@ -2872,7 +2876,7 @@ You need to identify the data that can be exported by using Export1.
 Which data should you identify?
 
 - A. DB1
-- B. container1
+- ✅ B. container1
 - C. share1
 - D. Table1
 
@@ -2893,7 +2897,9 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0014500001.jpg)
 
-**Correct Answer:** ![](images/0014600001.jpg)
+**Correct Answer:** ✅ 
+Box 1: Access Control (IAM)
+Box 2: Shared access signatures (SAS)
 
 _Explanation:_
 App1: Access keys -
@@ -2917,7 +2923,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0014700004.jpg)
 
-**Correct Answer:** ![](images/0014800001.jpg)
+**Correct Answer:** ✅ 
+![](images/0014800001.jpg)
 
 _Explanation:_
 Box 1: StorageV2 -
@@ -2943,10 +2950,10 @@ Which three actions should you perform? Each correct answer presents part of the
 NOTE: Each correct selection is worth one point.
 
 - A. Create a container instance
-- B. Register Server1
-- C. Install the Azure File Sync agent on Server1
+- ✅ B. Register Server1
+- ✅ C. Install the Azure File Sync agent on Server1
 - D. Download an automation script
-- E. Create a sync group
+- ✅ E. Create a sync group
 
 **Correct Answer:** BCE
 
@@ -2969,7 +2976,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0015200001.png)
 
-**Correct Answer:** ![](images/0015200002.png)
+**Correct Answer:** ✅ No/ No/ No
 
 ---
 
@@ -2984,7 +2991,7 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Select and Place:
 ![](images/0015300001.jpg)
 
-**Correct Answer:** ![](images/0015400001.jpg)
+**Correct Answer:** ✅ ![](images/0015400001.jpg)
 
 _Explanation:_
 At a high level, an import job involves the following steps:
@@ -3019,7 +3026,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0015600001.jpg)
 
-**Correct Answer:** ![](images/0015600002.jpg)
+**Correct Answer:** ✅ No/ No/ Yes
 
 _Explanation:_
 Box 1: No -
@@ -3044,7 +3051,7 @@ NOTE: Each correct selection is worth one point.
 Select and Place:
 ![](images/0015700001.jpg)
 
-**Correct Answer:** ![](images/0015800001.jpg)
+**Correct Answer:** ✅ ![](images/0015800001.jpg)
 
 _Explanation:_
 Box 1: contosostorage -
@@ -3069,7 +3076,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0016000001.png)
 
-**Correct Answer:** ![](images/0016100001.png)
+**Correct Answer:** ✅ ![](images/0016100001.png)
 
 ---
 
@@ -3085,7 +3092,10 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0016200001.jpg)
 
-**Correct Answer:** ![](images/0016300001.jpg)
+**Correct Answer:** ✅ 
+Keyword (within 24 h)
+File1: Endpoint1 only
+File2: Endpoint1, Endpoint2 and Endpoint3
 
 _Explanation:_
 File1: Endpoint3 only -
@@ -3107,7 +3117,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0016500001.jpg)
 
-**Correct Answer:** ![](images/0016500002.jpg)
+**Correct Answer:** ✅ ![](images/0016500002.jpg)
 
 _Explanation:_
 Box 1: never -
@@ -3131,10 +3141,10 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0016700002.jpg)
 
-**Correct Answer:** ![](images/0016800001.jpg)
+**Correct Answer:** ✅ No/ No/ Yes
 
 _Explanation:_
-Box 1: Yes -
+Box 1: No -
 If you add an Azure file share that has an existing set of files as a cloud endpoint to a sync group, the existing files are merged with any other files that are already on other endpoints in the sync group.
 Box 2: No -
 Box 3: Yes -
@@ -3151,7 +3161,7 @@ You need to identify which storage account can be converted to zone-redundant st
 What should you identify?
 
 - A. storage1
-- B. storage2
+- ✅ B. storage2
 - C. storage3
 - D. storage4
 
@@ -3172,9 +3182,9 @@ You need to configure account1 to meet the following requirements:
 Which two actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. From the Networking blade of account1, select Selected networks.
+- ✅ A. From the Networking blade of account1, select Selected networks.
 - B. From the Networking blade of account1, select Allow trusted Microsoft services to access this storage account.
-- C. From the Networking blade of account1, add the 131.107.1.0/24 IP address range.
+- ✅ C. From the Networking blade of account1, add the 131.107.1.0/24 IP address range.
 - D. From the Networking blade of account1, add VNet1.
 - E. From the Service endpoints blade of VNet1, add a service endpoint.
 
@@ -3193,7 +3203,7 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0017200001.png)
 
-**Correct Answer:** ![](images/0017300001.png)
+**Correct Answer:** ✅ ![](images/0017300001.png)
 
 _Explanation:_
 Step 1: Install the Azure File Sync agent on Server1
@@ -3221,7 +3231,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0017400003.png)
 
-**Correct Answer:** ![](images/0017500001.png)
+**Correct Answer:** ✅ ![](images/0017500001.png)
 
 _Explanation:_
 Box 1: Zone-redundant storage (ZRS)
@@ -3242,10 +3252,10 @@ Which two files should you create before you prepare the drives for the import j
 NOTE: Each correct selection is worth one point.
 
 - A. an XML manifest file
-- B. a dataset CSV file
+- ✅ B. a dataset CSV file
 - C. a JSON configuration file
 - D. a PowerShell PS1 file
-- E. a driveset CSV file
+- ✅ E. a driveset CSV file
 
 **Correct Answer:** BE
 
@@ -3260,7 +3270,7 @@ What should you do first?
 - A. From the Recovery Service vault, delete the backup data.
 - B. Modify the disaster recovery properties of each virtual machine.
 - C. Modify the locks of each virtual machine.
-- D. From the Recovery Service vault, stop the backup of each backup item.
+- ✅ D. From the Recovery Service vault, stop the backup of each backup item.
 
 **Correct Answer:** D
 
@@ -3277,7 +3287,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0017900001.png)
 
-**Correct Answer:** ![](images/0018000001.png)
+**Correct Answer:** ✅ ![](images/0018000001.png)
 
 _Explanation:_
 Box 1: VM1 only -
@@ -3303,7 +3313,7 @@ What can you use as the destination of the imported data?
 
 - A. a virtual machine
 - B. an Azure Cosmos DB database
-- C. Azure File Storage
+- ✅ C. Azure File Storage
 - D. the Azure File Sync Storage Sync Service
 
 **Correct Answer:** C
@@ -3321,7 +3331,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0018400001.png)
 
-**Correct Answer:** ![](images/0018400002.png)
+**Correct Answer:** ✅ ![](images/0018400002.png)
 
 _Explanation:_
 Box 1: 3 -
@@ -3346,7 +3356,7 @@ You need to identify the storage services in storage1 to which you can copy the 
 Which storage services should you identify?
 
 - A. blob, file, table, and queue
-- B. blob and file only
+- ✅ B. blob and file only
 - C. file and table only
 - D. file only
 - E. blob, table, and queue only
@@ -3365,7 +3375,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0018700001.png)
 
-**Correct Answer:** ![](images/0018700002.png)
+**Correct Answer:** ✅ ![](images/0018700002.png)
 
 _Explanation:_
 You can provide authorization credentials by using Azure Active Directory (AD), or by using a Shared Access Signature (SAS) token.
@@ -3385,7 +3395,7 @@ You plan to create an Azure container instance named container1 that will use a 
 You need to configure a storage service for Container1.
 What should you use?
 
-- A. Azure Files
+- ✅ A. Azure Files
 - B. Azure Blob storage
 - C. Azure Queue storage
 - D. Azure Table storage
@@ -3404,7 +3414,7 @@ What should you include in the Availability Set?
 - A. one update domain
 - B. two fault domains
 - C. one fault domain
-- D. two update domains
+- ✅ D. two update domains
 
 **Correct Answer:** D
 
@@ -3418,7 +3428,7 @@ You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
 - A. an Azure Cosmos DB database
-- B. Azure Blob storage
+- ✅ B. Azure Blob storage
 - C. Azure Data Lake Store
 - D. the Azure File Sync Storage Sync Service
 
@@ -3438,7 +3448,7 @@ NOTE: Each correct selection is worth one point.
 Select and Place:
 ![](images/0019100001.png)
 
-**Correct Answer:** ![](images/0019100002.png)
+**Correct Answer:** ✅ ![](images/0019100002.png)
 
 _Explanation:_
 First action: Create a Storage Sync Service
@@ -3466,7 +3476,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0019300001.jpg)
 
-**Correct Answer:** ![](images/0019300002.jpg)
+**Correct Answer:** ✅ ![](images/0019300002.jpg)
 
 _Explanation:_
 Box 1: No -
@@ -3492,13 +3502,14 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0019500001.jpg)
 
-**Correct Answer:** ![](images/0019500002.jpg)
+**Correct Answer:** ✅ 
+Box 1: Storage 3 only
+Box 2: Analytics1, Analytics2 and Analytics3
 
 _Explanation:_
-Box 1: storage1, storage2, and storage3
+Box 1: storage3
 The location and subscription where this Log Analytics workspace can be created is independent of the location and subscription where your vaults exist.
-Box 2: Analytics3 -
-Vault1 and Analytics3 are both in West Europe.
+Box 2: Analytics1, Analytics2 and Analytics3
 Reference:
 https://docs.microsoft.com/en-us/azure/backup/backup-azure-configure-reports
 
@@ -3514,7 +3525,9 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0019700001.png)
 
-**Correct Answer:** ![](images/0019700002.png)
+**Correct Answer:** ✅ 
+Box 1: contoso 104 only
+Box 2: contoso 101 and contoso 103 only 
 
 _Explanation:_
 Box 1: contoso104 only -
@@ -3537,7 +3550,9 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0020000001.jpg)
 
-**Correct Answer:** ![](images/0020000002.jpg)
+**Correct Answer:** ✅ 
+Box 1: will have no answer
+Box 2: will have no answer
 
 _Explanation:_
 Box 1: Will have no access -
@@ -3556,7 +3571,7 @@ VM2 is backed up to RSV1.
 You need to back up VM2 to RSV2.
 What should you do first?
 
-- A. From the RSV1 blade, click Backup items and stop the VM2 backup
+- ✅ A. From the RSV1 blade, click Backup items and stop the VM2 backup
 - B. From the RSV2 blade, click Backup. From the Backup blade, select the backup for the virtual machine, and then click Backup
 - C. From the VM2 blade, click Disaster recovery, click Replication settings, and then select RSV2 as the Recovery Services vault
 - D. From the RSV1 blade, click Backup Jobs and export the VM2 job
@@ -3573,7 +3588,7 @@ What should you do first?
 
 - A. Create a new storage account.
 - B. Configure object replication rules.
-- C. Upgrade the account to general-purpose v2.
+- ✅ C. Upgrade the account to general-purpose v2.
 - D. Modify the Replication setting of storage1.
 
 **Correct Answer:** C
@@ -3590,7 +3605,7 @@ To which storage accounts can you apply lifecycle management rules?
 - A. storage1 only
 - B. storage1 and storage2 only
 - C. storage3 and storage4 only
-- D. storage1, storage2, and storage3 only
+- ✅ D. storage1, storage2, and storage3 only
 - E. storage1, storage2, storage3, and storage4
 
 **Correct Answer:** D
@@ -3606,7 +3621,7 @@ Which outbound port should you open between the home computers and the data file
 
 - A. 80
 - B. 443
-- C. 445
+- ✅ C. 445
 - D. 3389
 
 **Correct Answer:** C
@@ -3620,7 +3635,7 @@ You have 5 TB of data that you need to transfer to Subscription1.
 You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
-- A. Azure File Storage
+- ✅ A. Azure File Storage
 - B. an Azure Cosmos DB database
 - C. Azure Data Factory
 - D. Azure SQL Database
@@ -3640,7 +3655,7 @@ NOTE: Each correct selection is worth one point
 Hot Area:
 ![](images/0020600001.png)
 
-**Correct Answer:** ![](images/0020600002.jpg)
+**Correct Answer:** ✅ ![](images/0020600002.jpg)
 
 _Explanation:_
 Reference:
@@ -3656,7 +3671,7 @@ You have the devices shown in the following table.
 From which devices can you use AzCopy to copy data to storage1?
 
 - A. Device 1 only
-- B. Device1, Device2 and Device3
+- ✅ B. Device1, Device2 and Device3
 - C. Device1 and Device2 only
 - D. Device1 and Device3 only
 
@@ -3671,7 +3686,7 @@ You need to prevent new content added to container1 from being modified for one 
 What should you configure?
 
 - A. the access tier
-- B. an access policy
+- ✅ B. an access policy
 - C. the Access control (IAM) settings
 - D. the access level
 
@@ -3692,7 +3707,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0020900002.jpg)
 
-**Correct Answer:** ![](images/0020900003.jpg)
+**Correct Answer:** ✅ No/ Yes/ Yes
 
 ---
 
@@ -3704,8 +3719,8 @@ Which two roles should you configure for storage1? Each correct answer presents 
 NOTE: Each correct selection is worth one point.
 
 - A. Storage Account Contributor
-- B. Storage Blob Data Contributor
-- C. Reader
+- ✅ B. Storage Blob Data Contributor
+- ✅ C. Reader
 - D. Contributor
 - E. Storage Blob Data Reader
 
@@ -3723,7 +3738,9 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0021100001.jpg)
 
-**Correct Answer:** ![](images/0021200001.jpg)
+**Correct Answer:** ✅ 
+- Account type: StorageV2 only
+- Object type to create in the new account: Container
 
 _Explanation:_
 Reference:
@@ -3739,7 +3756,7 @@ Which command should you run?
 
 - A. https://contosodata.blob.core.windows.net/public
 - B. azcopy sync D:\folder1 https://contosodata.blob.core.windows.net/public --snapshot
-- C. azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
+- ✅ C. azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
 - D. az storage blob copy start-batch D:\Folder1 https://contosodata.blob.core.windows.net/public
 
 **Correct Answer:** C
@@ -3757,7 +3774,7 @@ In the Azure portal, you plan to create a storage account named storage1 that wi
 You need to ensure that you can set Account kind for storage1 to BlockBlobStorage.
 Which setting should you modify first?
 
-- A. Performance
+- ✅ A. Performance
 - B. Replication
 - C. Access tier (default)
 - D. Hierarchical namespace
@@ -3778,7 +3795,8 @@ NOTE: Each correct selection is worth one point.
 Select and Place:
 ![](images/0021500001.jpg)
 
-**Correct Answer:** ![](images/0021500002.jpg)
+**Correct Answer:** ✅ 
+![](images/0021500002.jpg)
 
 _Explanation:_
 Box 1: A shared access signature (SAS) token.
@@ -3802,7 +3820,7 @@ What should you do before you create the container?
 - A. Generate a shared access signature (SAS).
 - B. Modify the minimum TLS version.
 - C. Rotate the access keys.
-- D. Create an encryption scope.
+- ✅ D. Create an encryption scope.
 
 **Correct Answer:** D
 
@@ -3820,7 +3838,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image580.png)
 
-**Correct Answer:** ![](images/image581.png)
+**Correct Answer:** ✅ 
+![](images/image581.png)
 
 ---
 
@@ -3835,7 +3854,8 @@ For each of the following statements, select Yes if the statement is hue. Otherw
 NOTE: Each correct selection is worth one point.
 ![](images/image583.png)
 
-**Correct Answer:** ![](images/image584.png)
+**Correct Answer:** ✅ 
+![](images/image584.png)
 
 ---
 
@@ -3847,7 +3867,7 @@ Which command should you run?
 
 - A. az storage blob copy start D:\Folder1 https://contosodata.blob.core.windows.net/public
 - B. azcopy sync D:\folder1 https://contosodata.blob.core.windows.net/public --snapshot
-- C. azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
+- ✅ C. azcopy copy D:\folder1 https://contosodata.blob.core.windows.net/public --recursive
 - D. az storage blob copy start-batch D:\Folder1 https://contosodata.blob.core.windows.net/public
 
 **Correct Answer:** C
@@ -3864,7 +3884,8 @@ How should you complete the rule? To answer, select the appropriate options in t
 NOTE: Each correct selection is worth one point.
 ![](images/image585.png)
 
-**Correct Answer:** ![](images/image586.png)
+**Correct Answer:** ✅ 
+![](images/image586.png)
 
 ---
 
@@ -3877,7 +3898,8 @@ You need to back up VM1. The solution must ensure that backups are stored across
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 ![](images/image587.png)
 
-**Correct Answer:** ![](images/image588.png)
+**Correct Answer:** ✅ 
+![](images/image588.png)
 
 ---
 
@@ -3889,7 +3911,7 @@ You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
 - A. an Azure Cosmos DB database
-- B. Azure File Storage
+- ✅ B. Azure File Storage
 - C. Azure SQL Database
 - D. a virtual machine
 
@@ -3908,7 +3930,7 @@ Which tasks can you perform by using Azure Storage Explorer?
 - A. Task1 and Task3 only
 - B. Task1, Task2, and Task3 only
 - C. Task1, Task3, and Task4 only
-- D. Task2, Task3, and Task4 only
+- ✅ D. Task2, Task3, and Task4 only
 - E. Task1, Task2, Task3, and Task4
 
 **Correct Answer:** D
@@ -3927,7 +3949,8 @@ Which two settings should you configure? To answer, select the appropriate setti
 NOTE: Each correct selection is worth one point.
 ![](images/image591.png)
 
-**Correct Answer:** ![](images/image592.png)
+**Correct Answer:** ✅ 
+![](images/image592.png)
 
 ---
 
@@ -3942,7 +3965,7 @@ Which key should you use?
 - B. an EC key that uses the P-521 curve only
 - C. an EC key that uses the P-384 curve or P-521 curve only
 - D. an RSA key with a key size of 4096 only
-- E. an RSA key type with a key size of 2048, 3072, or 4096 only
+- ✅ E. an RSA key type with a key size of 2048, 3072, or 4096 only
 
 **Correct Answer:** E
 
@@ -3964,7 +3987,9 @@ To which resources can User1 write by using SAS1 and key1? To answer, select the
 NOTE: Each correct selection is worth one point.
 ![](images/image634.png)
 
-**Correct Answer:** ![](images/image635.png)
+**Correct Answer:** ✅ 
+Using key1: Table1, folder1, and container1
+Using SAS1: Table1 only
 
 ---
 
@@ -3978,7 +4003,7 @@ Use the drop-down menus to select the answer choice that completes each statemen
 NOTE: Each correct selection is worth one point.
 ![](images/image637.png)
 
-**Correct Answer:** ![](images/image638.png)
+**Correct Answer:** ✅ ![](images/image638.png)
 
 ---
 
@@ -3989,7 +4014,7 @@ You have 5 TB of data that you need to transfer to Subscription1.
 You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
-- A. Azure Blob Storage
+- ✅ A. Azure Blob Storage
 - B. Azure Data Lake Store
 - C. Azure SQL Database
 - D. a virtual machine
@@ -4008,7 +4033,7 @@ What is the state of File1 on June 7?
 - A. stored in the Cool access tier
 - B. stored in the Archive access tier
 - C. stored in the Hot access tier
-- D. deleted
+- ✅ D. deleted
 
 **Correct Answer:** D
 
@@ -4025,7 +4050,8 @@ Which storage accounts should you use? To answer, select the appropriate options
 NOTE: Each correct selection is worth one point.
 ![](images/image641.png)
 
-**Correct Answer:** ![](images/image642.png)
+**Correct Answer:** ✅ 
+![](images/image642.png)
 
 ---
 
@@ -4038,7 +4064,7 @@ What can you use as the destination of the imported data?
 
 - A. an Azure Cosmos DB database
 - B. Azure Data Lake Store
-- C. Azure Blob storage
+- ✅ C. Azure Blob storage
 - D. Azure Data Factory
 
 **Correct Answer:** C
@@ -4056,7 +4082,8 @@ How should you complete the rule? To answer, select the appropriate options in t
 NOTE: Each correct selection is worth one point.
 ![](images/image651.png)
 
-**Correct Answer:** ![](images/image652.png)
+**Correct Answer:** ✅ 
+![](images/image652.png)
 
 ---
 
@@ -4068,7 +4095,7 @@ You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
 - A. an Azure Cosmos DB database
-- B. Azure Blob Storage
+- ✅ B. Azure Blob Storage
 - C. Azure SQL Database
 - D. the Azure File Sync Storage Sync Service
 
@@ -4082,7 +4109,7 @@ You plan to create an Azure Storage account named storage1 that will contain a f
 You need to ensure that share1 can support SMB Multichannel. The solution must minimize costs.
 How should you configure storage?
 
-- A. Premium performance with locally-redundant storage (LRS)
+- ✅ A. Premium performance with locally-redundant storage (LRS)
 - B. Standard performance with zone-redundant storage (ZRS)
 - C. Premium performance with geo-redundant storage (GRS)
 - D. Standard performance with locally-redundant storage (LRS)
@@ -4099,7 +4126,7 @@ You plan to use an Azure Import/Export job.
 What can you use as the destination of the imported data?
 
 - A. Azure Data Lake Store
-- B. Azure File Storage
+- ✅ B. Azure File Storage
 - C. Azure SQL Database
 - D. the Azure File Sync Storage Sync Service
 
@@ -4117,7 +4144,7 @@ Which storage1 services support conditions when assigning roles?
 - B. file shares only
 - C. tables only
 - D. queues only
-- E. containers and queues only
+- ✅ E. containers and queues only
 - F. files shares and tables only
 
 **Correct Answer:** E
@@ -4138,7 +4165,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image661.png)
 
-**Correct Answer:** ![](images/image662.png)
+**Correct Answer:** ✅ ![](images/image662.png)
 
 ---
 
@@ -4152,7 +4179,7 @@ Solution: You assign the Storage Account Encryption Scope Contributor Role to Us
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -4169,7 +4196,9 @@ Use the drop-down menus to select the answer choice that completes each statemen
 NOTE: Each correct selection is worth one point.
 ![](images/image672.png)
 
-**Correct Answer:** ![](images/image673.png)
+**Correct Answer:** ✅ 
+Default routing tier
+Encryption type
 
 ---
 
@@ -4186,7 +4215,8 @@ Which type of key and which bit length should you use? To answer, select the app
 NOTE: Each correct selection is worth one point.
 ![](images/image674.png)
 
-**Correct Answer:** ![](images/image675.png)
+**Correct Answer:** ✅ 
+![](images/image675.png)
 
 ---
 
@@ -4196,7 +4226,7 @@ You have an Azure Storage account that contains 5,000 blobs accessed by multiple
 You need to ensure that the users can view only specific blobs based on blob index tags.
 What should you include in the solution?
 
-- A. a role assignment condition
+- ✅ A. a role assignment condition
 - B. a stored access policy
 - C. just-in-time (JIT) VM access
 - D. a shared access signature (SAS)
@@ -4212,7 +4242,7 @@ For storage1, you create an encryption scope named Scope1.
 Which storage types can you encrypt by using Scope?
 
 - A. file shares only
-- B. containers only
+- ✅ B. containers only
 - C. file shares and containers only
 - D. containers and tables only
 - E. file shares, containers, and tables only
@@ -4235,7 +4265,8 @@ What should you include in the role definition for each requirement? To answer, 
 NOTE: Each correct selection is worth one point.
 ![](images/image707.png)
 
-**Correct Answer:** ![](images/image708.png)
+**Correct Answer:** ✅ 
+![](images/image708.png)
 
 ---
 
@@ -4248,7 +4279,7 @@ What can you use as the destination of the imported data?
 
 - A. Azure Data Factory
 - B. the Azure File Sync Storage Sync Service
-- C. Azure File Storage
+- ✅ C. Azure File Storage
 - D. Azure SQL Database
 
 **Correct Answer:** C
@@ -4267,8 +4298,9 @@ To VM1, you plan to add a 1-TB data disk that meets the following requirements:
 You need to recommend which type of storage and host caching to configure for the new data disk.
 ![](images/image709.png)
 
-**Correct Answer:** ![](images/image710.png)
-
+**Correct Answer:** ✅ 
+Storage type:Premium SSD that uses zone-redundant storage (ZRS)
+Host caching: Read-only
 ---
 
 ### Question 232: Question #78 Topic 3
@@ -4280,10 +4312,10 @@ Which two actions should you perform on Vault1? Each correct answer presents par
 NOTE: Each correct selection is worth one point.
 
 - A. Select Azure Virtual machines for deployment.
-- B. Create a new key.
+- ✅ B. Create a new key.
 - C. Create a new secret.
 - D. Configure a key rotation policy.
-- E. Select Azure Disk Encryption for volume encryption.
+- ✅ E. Select Azure Disk Encryption for volume encryption.
 
 **Correct Answer:** BE
 
@@ -4300,7 +4332,7 @@ Which encryption method should you use?
 
 - A. customer-managed keys
 - B. Confidential disk encryption
-- C. Azure Disk Encryption
+- ✅ C. Azure Disk Encryption
 - D. encryption at host
 
 **Correct Answer:** C
@@ -4317,7 +4349,8 @@ Which two settings should you configure? To answer, select the appropriate setti
 NOTE: Each correct answer is worth one point.
 ![](images/image711.png)
 
-**Correct Answer:** ![](images/image712.png)
+**Correct Answer:** ✅ 
+![](images/image712.png)
 
 ---
 
@@ -4331,7 +4364,7 @@ You need to configure access to container1. The solution must meet the following
 What should you use?
 
 - A. an access policy
-- B. a shared access signature (SAS)
+- ✅ B. a shared access signature (SAS)
 - C. Azure Content Delivery Network (CDN)
 - D. access keys
 
@@ -4349,10 +4382,10 @@ Which three options should you configure for storage1? Each correct answer prese
 NOTE: Each correct answer is worth one point.
 
 - A. zone-redundant storage (ZRS)
-- B. the Cool access tire
-- C. geo-redundant storage (GRS)
+- ✅ B. the Cool access tire
+- ✅ C. geo-redundant storage (GRS)
 - D. the Hot access tier
-- E. hierarchical namespace
+- ✅ E. hierarchical namespace
 
 **Correct Answer:** BCE
 
@@ -4370,7 +4403,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image771.png)
 
-**Correct Answer:** ![](images/image772.png)
+**Correct Answer:** ✅ No/ No/ No
 
 ---
 
@@ -4381,7 +4414,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 Which storage account can be converted to zone-redundant storage (ZRS) replication?
 
 - A. storage1
-- B. storage2
+- ✅ B. storage2
 - C. storage3
 - D. storage4
 
@@ -4398,7 +4431,7 @@ On which devices can you install Azure Storage Explorer?
 - A. Device1 only
 - B. Device1 and Device2 only
 - C. Device1 and Device3 only
-- D. Device1, Device2, and Device3 only
+- ✅ D. Device1, Device2, and Device3 only
 - E. Device1, Device3, and Device4 only
 
 **Correct Answer:** D
@@ -4414,7 +4447,7 @@ You need to enable a user named User1 to list and regenerate storage account key
 Solution: You assign the Storage Account Key Operator Service Role to User1.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -4432,7 +4465,7 @@ How should you complete rule1? To answer, select the options in the answer area.
 NOTE: Each correct answer is worth one point.
 ![](images/image778.png)
 
-**Correct Answer:** ![](images/image779.png)
+**Correct Answer:** ✅ ![](images/image779.png)
 
 ---
 
@@ -4448,7 +4481,7 @@ You need to generate a shared access signature (SAS). The solution must meet the
 Which three settings should you enable? To answer, select the appropriate settings in the answer area.
 ![](images/image780.png)
 
-**Correct Answer:** ![](images/image781.png)
+**Correct Answer:** ✅ Container/ Read/ List
 
 ---
 
@@ -4464,7 +4497,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image784.png)
 
-**Correct Answer:** ![](images/image785.png)
+**Correct Answer:** ✅ No/ No/ No
 
 ---
 
@@ -4482,7 +4515,10 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image807.png)
 
-**Correct Answer:** ![](images/image808.png)
+**Correct Answer:** ✅ No/ No/ No
+No (Reader can't read contents of Blob Container)
+No (Storage account contributor can't read contents of File Share)
+No (key access is disabled)
 
 ---
 
@@ -4500,7 +4536,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image827.png)
 
-**Correct Answer:** ![](images/image828.png)
+**Correct Answer:** ✅ 
+![](images/image828.png)
 
 ---
 
@@ -4520,7 +4557,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image838.png)
 
-**Correct Answer:** ![](images/image839.png)
+**Correct Answer:** ✅ No/ Yes/ No
 
 ---
 
@@ -4530,7 +4567,7 @@ You have an Azure subscription that contains the storage accounts shown in the f
 ![](images/image852.png)
 Which storage account can be converted to zone-redundant storage (ZRS) replication?
 
-- A. storage1 only
+- ✅ A. storage1 only
 - B. storage2 only
 - C. storage3 only
 - D. storage2 and storage3
@@ -4550,7 +4587,7 @@ Solution: You assign the Reader and Data Access role to User1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -4566,7 +4603,7 @@ What should you do first for ContReg1?
 - B. Add a scope map.
 - C. Add an automation task.
 - D. Create a cache rule.
-- E. Upgrade the SKU.
+- ✅ E. Upgrade the SKU.
 
 **Correct Answer:** E
 
@@ -4640,7 +4677,7 @@ What is the maximum number of additional access policies you can create for cont
 NOTE: Each correct selection is worth one point.
 ![](images/image877.png)
 
-**Correct Answer:** ![](images/image878.png)
+**Correct Answer:** ✅ 2 / 1
 
 ---
 
@@ -4699,7 +4736,7 @@ Which virtual machines can you encrypt?
 
 - A. VM1 and VM3
 - B. VM4 and VM5
-- C. VM2 and VM3
+- ✅ C. VM2 and VM3
 - D. VM2 and VM4
 
 **Correct Answer:** C
@@ -4762,7 +4799,7 @@ Which containers and file shares can you use to organize the content?
 - A. share1 only
 - B. cont1 and share1 only
 - C. share1 and share2 only
-- D. cont1, share1, and share2 only
+- ✅ D. cont1, share1, and share2 only
 - E. cont1, cont2, share1, and share2
 
 **Correct Answer:** D
@@ -4779,7 +4816,7 @@ Solution: From Azure CLI, you run az aks.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -4794,7 +4831,7 @@ You need to deploy a YAML file to AKS1.
 Solution: From Azure CLI, you run the kubectl client.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -4811,7 +4848,7 @@ Solution: From Azure CLI, you run azcopy.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -4827,7 +4864,7 @@ Solution: You create an Azure storage account and configure shared access signat
 Does that meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -4846,7 +4883,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0023400001.png)
 
-**Correct Answer:** ![](images/0023500001.png)
+**Correct Answer:** ✅ 
+![](images/0023500001.png)
 
 _Explanation:_
 We cannot just move a virtual machine between networks. What we need to do is identify the disk used by the VM, delete the VM itself while retaining the disk, and recreate the VM in the target virtual network and then attach the original disk to it.
@@ -4861,7 +4899,7 @@ You download an Azure Resource Manager template based on an existing virtual mac
 You need to modify the template to reference an administrative password. You must prevent the password from being stored in plain text.
 What should you create to store the password?
 
-- A. an Azure Key Vault and an access policy
+- ✅ A. an Azure Key Vault and an access policy
 - B. an Azure Storage account and an access policy
 - C. a Recovery Services vault and a backup policy
 - D. Azure Active Directory (AD) Identity Protection and an Azure policy
@@ -4883,7 +4921,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0023700002.png)
 
-**Correct Answer:** ![](images/0023800001.png)
+**Correct Answer:** ✅ 
+![](images/0023800001.png)
 
 _Explanation:_
 Box 1: ASP1 ASP3 -
@@ -4906,7 +4945,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0024100001.jpg)
 
-**Correct Answer:** ![](images/0024200001.jpg)
+**Correct Answer:** ✅ 
+![](images/0024200001.jpg)
 
 _Explanation:_
 Box 1: 6 virtual machines -
@@ -4926,10 +4966,10 @@ You need to ensure that when the scale set virtual machines are provisioned, the
 Which two actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. Upload a configuration script
+- ✅ A. Upload a configuration script
 - B. Create an automation account
 - C. Create an Azure policy
-- D. Modify the extensionProfile section of the Azure Resource Manager template
+- ✅ D. Modify the extensionProfile section of the Azure Resource Manager template
 - E. Create a new virtual machine scale set in the Azure portal
 
 **Correct Answer:** AD
@@ -4946,7 +4986,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0024400001.jpg)
 
-**Correct Answer:** ![](images/0024400002.jpg)
+**Correct Answer:** ✅ 
+![](images/0024400002.jpg)
 
 _Explanation:_
 To install kubectl locally, use the az aks install-cli command: az aks install-cli
@@ -4965,7 +5006,10 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Select and Place:
 ![](images/0024500001.jpg)
 
-**Correct Answer:** ![](images/0024600001.jpg)
+**Correct Answer:** ✅ 
+1: Upload a configuration to Azure Automation State Configuration 
+2: Compile a configuration into a node configuration 
+3: Check the compliance status of the node. 
 
 _Explanation:_
 Step 1: Upload a configuration to Azure Automation State Configuration.
@@ -4994,7 +5038,7 @@ The resources section in Template1 contains the following text:
 You need to deploy the virtual machine to the West US location by using Template1.
 What should you do?
 
-- A. Modify the location in the resources section to westus
+- ✅ A. Modify the location in the resources section to westus
 - B. Select West US during the deployment
 - C. Modify the location in the variables section to westus
 
@@ -5009,7 +5053,7 @@ You discover that the option to create a staging slot is unavailable.
 You need to create a staging slot for Plan1.
 What should you do first?
 
-- A. From Plan1, scale up the App Service plan
+- ✅ A. From Plan1, scale up the App Service plan
 - B. From webapp1, modify the Application settings
 - C. From webapp1, add a custom domain
 - D. From Plan1, scale out the App Service plan
@@ -5025,7 +5069,7 @@ After the planned move, App1 will be hosted on several Azure virtual machines.
 You need to ensure that App1 always runs on at least eight virtual machines during planned Azure maintenance.
 What should you create?
 
-- A. one virtual machine scale set that has 10 virtual machines instances
+- ✅ A. one virtual machine scale set that has 10 virtual machines instances
 - B. one Availability Set that has three fault domains and one update domain
 - C. one Availability Set that has 10 update domains and one fault domain
 - D. one virtual machine scale set that has 12 virtual machines instances
@@ -5044,9 +5088,13 @@ Solution: You create an event subscription on VM1. You create an alert in Azure 
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
+Correct Answer: B - No You need to specify Log Analytics as the source for this alert, and not the VM as source for the alert. 
+1. You create an Azure Log Analytics workspace and configure the data settings. 
+2. You install the Microsoft Monitoring Agent on VM1. 
+3. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.
 
 ---
 
@@ -5061,10 +5109,10 @@ Solution: From the Overview blade, you move the virtual machine to a different s
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+You would need to redeploy the VM.
 ---
 
 ### Question 269: Question #17 Topic 4
@@ -5077,11 +5125,12 @@ You need to move VM1 to a different host immediately.
 Solution: From the Redeploy blade, you click Redeploy.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
-
+When you redeploy a VM, it moves the VM to a new node within the Azure infrastructure and then powers it back on, retaining all your
+con¬guration options and associated resources.
 ---
 
 ### Question 270: Question #18 Topic 4
@@ -5095,7 +5144,7 @@ Solution: From the Update management blade, you click Enable.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -5107,7 +5156,7 @@ You have an Azure subscription that contains a web app named webapp1.
 You need to add a custom domain named www.contoso.com to webapp1.
 What should you do first?
 
-- A. Create a DNS record
+- ✅ A. Create a DNS record
 - B. Add a connection string
 - C. Upload a certificate.
 - D. Stop webapp1.
@@ -5128,7 +5177,7 @@ Solution: You move VM1 to RG2, and then you add a new network interface to VM1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -5145,7 +5194,7 @@ You need to connect VM1 to VNET2.
 Solution: You delete VM1. You recreate VM1, and then you create a new network interface for VM1 and connect it to VNET2.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -5164,7 +5213,7 @@ Solution: You turn off VM1, and then you add a new network interface to VM1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -5184,7 +5233,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0025800001.jpg)
 
-**Correct Answer:** ![](images/0025800002.jpg)
+**Correct Answer:** ✅ 
+![](images/0025800002.jpg)
 
 _Explanation:_
 The total regional vCPUs is 20 so that means a maximum total of 20 vCPUs across all the different VM sizes. The deallocated VM with 16 vCPUs counts towards the total. VM20 and VM1 are using 18 of the maximum 20 vCPUs leaving only two vCPUs available.
@@ -5204,7 +5254,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0026000001.png)
 
-**Correct Answer:** ![](images/0026100001.png)
+**Correct Answer:** ✅ 
+![](images/0026100001.png)
 
 _Explanation:_
 Box 1: 2 -
@@ -5223,7 +5274,7 @@ You deploy an Azure Kubernetes Service (AKS) cluster named Cluster1 that uses th
 You need to provide internet users with access to the applications that run in Cluster1.
 Which IP address should you include in the DNS record for Cluster1?
 
-- A. 131.107.2.1
+- ✅ A. 131.107.2.1
 - B. 10.0.10.11
 - C. 172.17.7.1
 - D. 192.168.10.2
@@ -5239,7 +5290,7 @@ You need to identify what to deploy before you deploy Template1. The solution mu
 What should you identify?
 
 - A. five Azure Application Gateways
-- B. one App Service plan
+- ✅ B. one App Service plan
 - C. 10 App Service plans
 - D. one Azure Traffic Manager
 - E. one Azure Application Gateway
@@ -5258,7 +5309,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0026500001.jpg)
 
-**Correct Answer:** ![](images/0026500002.jpg)
+**Correct Answer:** ✅ ![](images/0026500002.jpg)
 
 ---
 
@@ -5274,7 +5325,7 @@ Which change will cause downtime for VM1?
 
 - A. Enable Desired State Configuration Management
 - B. Add a 500-GB managed disk
-- C. Change the size to D8s v3
+- ✅ C. Change the size to D8s v3
 - D. Add the Puppet Agent extension
 
 **Correct Answer:** C
@@ -5291,10 +5342,10 @@ You need to ensure that the App1 update is tested before the update is made avai
 Which two actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. Swap the slots
+- ✅ A. Swap the slots
 - B. Deploy the App1 update to webapp1-prod, and then test the update
 - C. Stop webapp1-prod
-- D. Deploy the App1 update to webapp1-test, and then test the update
+- ✅ D. Deploy the App1 update to webapp1-test, and then test the update
 - E. Stop webapp1-test
 
 **Correct Answer:** AD
@@ -5328,9 +5379,9 @@ NOTE: Each correct selection is worth one point.
 - A. Enable Azure Network Watcher in the East US Azure region.
 - B. Add an Azure Network Watcher connection monitor.
 - C. Register the MicrosoftLogAnalytics provider.
-- D. Create an Azure Storage account.
-- E. Register the Microsoft.Insights resource provider.
-- F. Enable Azure Network Watcher flow logs.
+- ✅ D. Create an Azure Storage account.
+- ✅ E. Register the Microsoft.Insights resource provider.
+- ✅ F. Enable Azure Network Watcher flow logs.
 
 **Correct Answer:** DEF
 
@@ -5344,7 +5395,7 @@ What should you do?
 - A. Deploy five virtual machines. Modify the Availability Zones settings for each virtual machine.
 - B. Deploy five virtual machines. Modify the Size setting for each virtual machine.
 - C. Deploy one virtual machine scale set that is set to VM (virtual machines) orchestration mode.
-- D. Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode.
+- ✅ D. Deploy one virtual machine scale set that is set to ScaleSetVM orchestration mode.
 
 **Correct Answer:** D
 
@@ -5357,7 +5408,7 @@ You plan to create the Azure web apps shown in the following table.
 What is the minimum number of App Service plans you should create for the web apps?
 
 - A. 1
-- B. 2
+- ✅ B. 2
 - C. 3
 - D. 4
 
@@ -5377,7 +5428,8 @@ Use the drop-down menus to select the answer choice that completes each statemen
 Hot Area:
 ![](images/0027200001.jpg)
 
-**Correct Answer:** ![](images/0027200002.jpg)
+**Correct Answer:** ✅ 
+![](images/0027200002.jpg)
 
 _Explanation:_
 Box 1: VM1 and VM2 continue to run
@@ -5401,10 +5453,10 @@ Solution: From the Subscriptions blade, you select the subscription, and then cl
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+From the RG1 blade, click Deployments. You see a history of deployment for the resource group.
 ---
 
 ### Question 287: Question #35 Topic 4
@@ -5419,10 +5471,12 @@ Solution: You create a new network interface, and then you add the network inter
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+You should delete VM1. You recreate VM1, and then you add the network interface for VM1.
+Note: When you create an Azure virtual machine (VM), you must create a virtual network (VNet) or use an existing VNet. You can change the
+subnet a VM is connected to after it's created, but you cannot change the VNet
 ---
 
 ### Question 288: Question #36 Topic 4
@@ -5438,7 +5492,7 @@ Which users are members of the local Administrators group?
 
 - A. User1 only
 - B. User2 only
-- C. User1 and User2 only
+- ✅ C. User1 and User2 only
 - D. User1, User2, and User3 only
 - E. User1, User2, User3, and User4
 
@@ -5460,7 +5514,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0027700001.jpg)
 
-**Correct Answer:** ![](images/0027700002.jpg)
+**Correct Answer:** ✅ Yes/ Yes/ Yes
 
 _Explanation:_
 Box 1: No -
@@ -5501,7 +5555,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0027900005.jpg)
 
-**Correct Answer:** ![](images/0028000001.jpg)
+**Correct Answer:** ✅ 
+![](images/0028000001.jpg)
 
 _Explanation:_
 Box 1: "tag1": "value1" only -
@@ -5525,7 +5580,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0028200001.png)
 
-**Correct Answer:** ![](images/0028200002.png)
+**Correct Answer:** ✅ ![](images/0028200002.png)
 
 _Explanation:_
 Box 1: 60 -
@@ -5555,7 +5610,7 @@ Which virtual machines can be backed up to Vault1?
 - A. VM1 only
 - B. VM3 and VMC only
 - C. VM1, VM2, VM3, VMA, VMB, and VMC
-- D. VM1, VM3, VMA, and VMC only
+- ✅ D. VM1, VM3, VMA, and VMC only
 - E. VM1 and VM3 only
 
 **Correct Answer:** D
@@ -5570,9 +5625,9 @@ Which two tools should you use? Each correct answer presents a complete solution
 NOTE: Each correct selection is worth one point.
 
 - A. the kubectl command
-- B. the az aks command
+- ✅ B. the az aks command
 - C. the Set-AzVm cmdlet
-- D. the Azure portal
+- ✅ D. the Azure portal
 - E. the Set-AzAks cmdlet
 
 **Correct Answer:** BD
@@ -5588,7 +5643,7 @@ You create a container image named App1 on your administrative workstation.
 You need to deploy App1 to Cluster1.
 What should you do first?
 
-- A. Run the docker push command.
+- ✅ A. Run the docker push command.
 - B. Create an App Service plan.
 - C. Run the az acr build command.
 - D. Run the az aks create command.
@@ -5604,7 +5659,7 @@ You have an Azure subscription that contains the resources shown in the followin
 You need to configure a proximity placement group for VMSS1.
 Which proximity placement groups should you use?
 
-- A. Proximity2 only
+- ✅ A. Proximity2 only
 - B. Proximity1, Proximity2, and Proximity3
 - C. Proximity1 only
 - D. Proximity1 and Proximity3 only
@@ -5623,7 +5678,7 @@ Solution: From the Subscriptions blade, you select the subscription, and then cl
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -5639,7 +5694,7 @@ Solution: From the RG1 blade, you click Automation script.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -5654,7 +5709,7 @@ You need to view the date and time when the resources were created in RG1.
 Solution: From the RG1 blade, you click Deployments.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -5669,7 +5724,7 @@ You need to monitor the metrics and the logs of VM1.
 What should you use?
 
 - A. Azure HDInsight
-- B. Linux Diagnostic Extension (LAD) 3.0
+- ✅ B. Linux Diagnostic Extension (LAD) 3.0
 - C. the AzurePerformanceDiagnostics extension
 - D. Azure Analysis Services
 
@@ -5689,7 +5744,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0029100001.png)
 
-**Correct Answer:** ![](images/0029100002.png)
+**Correct Answer:** ✅ ![](images/0029100002.png)
 
 _Explanation:_
 Box 1:
