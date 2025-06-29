@@ -5744,7 +5744,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0029100001.png)
 
-**Correct Answer:** ✅ ![](images/0029100002.png)
+**Correct Answer:** ✅ 
+![](images/0029100002.png)
 
 _Explanation:_
 Box 1:
@@ -5765,7 +5766,7 @@ What should you deploy?
 
 - A. all three virtual machines in a single Availability Zone
 - B. all virtual machines in a single Availability Set
-- C. each virtual machine in a separate Availability Zone
+- ✅ C. each virtual machine in a separate Availability Zone
 - D. each virtual machine in a separate Availability Set
 
 **Correct Answer:** C
@@ -5782,7 +5783,7 @@ What can you configure during the deployment of VM2?
 - A. operating system
 - B. administrator username
 - C. virtual machine size
-- D. resource group
+- ✅ D. resource group
 
 **Correct Answer:** D
 
@@ -5796,7 +5797,7 @@ You need to create a scheduled runbook to increase the processor performance of 
 What task should you include in the runbook?
 
 - A. Add the Azure Performance Diagnostics agent to VM1.
-- B. Modify the VM size property of VM1.
+- ✅ B. Modify the VM size property of VM1.
 - C. Add VM1 to a scale set.
 - D. Increase the vCPU quota for the subscription.
 - E. Add a Desired State Configuration (DSC) extension to VM1.
@@ -5812,7 +5813,7 @@ You need to ensure that NGINX is available on all the virtual machines after the
 What should you use?
 
 - A. Deployment Center in Azure App Service
-- B. A Desired State Configuration (DSC) extension
+- ✅ B. A Desired State Configuration (DSC) extension
 - C. the New-AzConfigurationAssignment cmdlet
 - D. a Microsoft Intune device configuration profile
 
@@ -5830,7 +5831,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0029600001.jpg)
 
-**Correct Answer:** ![](images/0029600002.jpg)
+**Correct Answer:** ✅ 
+![](images/0029600002.jpg)
 
 _Explanation:_
 Box 1: 10.244.0.0/16 -
@@ -5857,7 +5859,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0030000001.png)
 
-**Correct Answer:** ![](images/0030000002.png)
+**Correct Answer:** ✅ 2/ 4
 
 _Explanation:_
 Box 1: 5 -
@@ -5882,7 +5884,7 @@ Which changes will be lost after you redeploy VM1?
 
 - A. the modified screen saver timeout
 - B. the new desktop background
-- C. the new files on drive D
+- ✅ C. the new files on drive D
 - D. the new files on drive C
 
 **Correct Answer:** C
@@ -5899,7 +5901,7 @@ What should you modify on VM1?
 
 - A. the memory
 - B. the network adapters
-- C. the hard drive
+- ✅ C. the hard drive
 - D. the processor
 - E. Integration Services
 
@@ -5920,7 +5922,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0030500002.jpg)
 
-**Correct Answer:** ![](images/0030600001.jpg)
+**Correct Answer:** ✅ 4/ 1
 
 _Explanation:_
 The Get-AzVmssVM cmdlet gets the model view and instance view of a Virtual Machine Scale Set (VMSS) virtual machine.
@@ -5942,7 +5944,7 @@ You need to view the template used for the deployment.
 From which blade can you view the template that was used for the deployment?
 
 - A. VM1
-- B. RG1
+- ✅ B. RG1
 - C. storage2
 - D. container1
 
@@ -5961,7 +5963,7 @@ You need to revert to the previous version of App1 as quickly as possible.
 What should you do?
 
 - A. Redeploy App1
-- B. Swap the slots
+- ✅ B. Swap the slots
 - C. Clone App1
 - D. Restore the backup of App1
 
@@ -5982,7 +5984,14 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0031100001.jpg)
 
-**Correct Answer:** ![](images/0031100002.jpg)
+**Correct Answer:** ✅ 
+Box 1: Any Windows computer that has Internet connectivity
+For files recovery, you download and run a windows executable to map a network drive. It can only run when the OS meets the requirements. Any computer running Windows Server 2016 or Windows 10 is suitable. File recovery can be done from any machine on the Internet.
+
+Note: There might be compatibility issues with any Windows computer, so consider VM1 and VM2 only as an answer.
+
+Box 2: VM1 or a new Azure virtual machine only
+For restoring a VM, you can choose 'Create new' or 'Replace existing'.
 
 _Explanation:_
 Note: The new VM must be in the same region.
@@ -5998,7 +6007,7 @@ You discover that the Backup Pre-Check status displays a status of Warning.
 What is a possible cause of the Warning status?
 
 - A. VM1 is stopped.
-- B. VM1 does not have the latest version of the Azure VM Agent (WaAppAgent.exe) installed.
+- ✅ B. VM1 does not have the latest version of the Azure VM Agent (WaAppAgent.exe) installed.
 - C. VM1 has an unmanaged disk.
 - D. A Recovery Services vault is unavailable.
 
@@ -6017,7 +6026,7 @@ Solution: From the Overview blade, you move the virtual machine to a different r
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6034,7 +6043,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0031400001.png)
 
-**Correct Answer:** ![](images/0031500001.png)
+**Correct Answer:** ✅ ![](images/0031500001.png)
 
 _Explanation:_
 Box 1: 2 -
@@ -6057,7 +6066,7 @@ You need to create an alert in Azure when more than two error events are logged 
 Solution: You create an Azure Log Analytics workspace and configure the Agent configuration settings. You install the Microsoft Monitoring Agent on VM1. You create an alert in Azure Monitor and specify the Log Analytics workspace as the source.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -6075,7 +6084,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0031900001.png)
 
-**Correct Answer:** ![](images/0032000001.jpg)
+**Correct Answer:** ✅ ![](images/0032000001.jpg)
 
 _Explanation:_
 Reference:
@@ -6092,7 +6101,7 @@ You plan to create an additional App Service plan named ASP5 that will use the L
 You need to identify in which of the currently used locations you can deploy ASP5.
 What should you recommend?
 
-- A. West US, Central US, or East US
+- ✅ A. West US, Central US, or East US
 - B. Central US only
 - C. East US only
 - D. West US only
@@ -6108,7 +6117,7 @@ You need to ensure that NGINX is available on all the virtual machines after the
 What should you use?
 
 - A. the New-AzConfigurationAssignment cmdlet
-- B. a Desired State Configuration (DSC) extension
+- ✅ B. a Desired State Configuration (DSC) extension
 - C. Azure Active Directory (Azure AD) Application Proxy
 - D. Azure Application Insights
 
@@ -6127,7 +6136,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0032300001.png)
 
-**Correct Answer:** ![](images/0032300002.jpg)
+**Correct Answer:** ✅ 
+![](images/0032300002.jpg)
 
 _Explanation:_
 Reference:
@@ -6145,7 +6155,7 @@ Solution: From Azure Cloud Shell, you run az aks.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6161,7 +6171,7 @@ Solution: You create an Azure Log Analytics workspace and configure the data set
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6177,7 +6187,7 @@ Solution: You create an Azure Log Analytics workspace and configure the data set
 Azure Monitor and specify the Log Analytics workspace as the source.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -6196,7 +6206,7 @@ You need to restore the backup to VM2.
 What should you do first?
 
 - A. From VM1, install the Windows Server Backup feature.
-- B. From VM2, install the Microsoft Azure Recovery Services Agent.
+- ✅ B. From VM2, install the Microsoft Azure Recovery Services Agent.
 - C. From VM1, install the Microsoft Azure Recovery Services Agent.
 - D. From VM2, install the Windows Server Backup feature.
 
@@ -6214,7 +6224,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0032800001.png)
 
-**Correct Answer:** ![](images/0032900001.png)
+**Correct Answer:** ✅ ![](images/0032900001.png)
 
 ---
 
@@ -6229,7 +6239,7 @@ You need to create a new network interface named NIC2 for VM1.
 Solution: You create NIC2 in RG1 and West US.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -6248,7 +6258,7 @@ Solution: You create NIC2 in RG2 and Central US.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6265,9 +6275,10 @@ You need to create a new network interface named NIC2 for VM1.
 Solution: You create NIC2 in RG2 and West US.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
-
+The virtual machine you attach a network interface to and the virtual network you connect it to must exist in the same location, here West US,
+also referred to as a region
 **Correct Answer:** A
 
 ---
@@ -6281,7 +6292,7 @@ Which cmdlet should you run to deploy the template?
 - A. New-AzResource
 - B. New-AzResourceGroupDeployment
 - C. New-AzTenantDeployment
-- D. New-AzDeployment
+- ✅ D. New-AzDeployment
 
 **Correct Answer:** D
 
@@ -6297,7 +6308,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0033600001.jpg)
 
-**Correct Answer:** ![](images/0033700001.jpg)
+**Correct Answer:** ✅ 
+![](images/0033700001.jpg)
 
 _Explanation:_
 Box 1: An Azure Storage account -
@@ -6323,7 +6335,7 @@ What should you use?
 
 - A. the Publish-AzVMDscConfiguration cmdlet
 - B. Azure Application Insights
-- C. Azure Custom Script Extension
+- ✅ C. Azure Custom Script Extension
 - D. a Microsoft Endpoint Manager device configuration profile
 
 **Correct Answer:** C
@@ -6340,7 +6352,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0034000001.jpg)
 
-**Correct Answer:** ![](images/0034100001.jpg)
+**Correct Answer:** ✅ 
+![](images/0034100001.jpg)
 
 _Explanation:_
 Box 1: "Microsoft.Compute/VirtualMachines/extensions",
@@ -6385,7 +6398,7 @@ You need to scale up VM1 to a new virtual machine size, but the intended size is
 What should you do first?
 
 - A. Create a proximity placement group.
-- B. Deallocate VM1.
+- ✅ B. Deallocate VM1.
 - C. Convert AvSet1 into a managed availability set.
 - D. Shut down VM3 and VM3.
 
@@ -6403,7 +6416,8 @@ Use the drop-down menus to select the answer choice that completes each statemen
 NOTE: Each correct selection is worth one point.
 ![](images/image594.png)
 
-**Correct Answer:** ![](images/image595.png)
+**Correct Answer:** ✅ 
+![](images/image595.png)
 
 ---
 
@@ -6419,7 +6433,7 @@ How should you complete the command? To answer, select the appropriate options i
 NOTE: Each correct selection is worth one point.
 ![](images/image596.png)
 
-**Correct Answer:** ![](images/image597.png)
+**Correct Answer:** ✅ updates/ --max-surge 2
 
 ---
 
@@ -6436,7 +6450,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image600.png)
 
-**Correct Answer:** ![](images/image601.png)
+**Correct Answer:** ✅ 
+![](images/image601.png)
 
 ---
 
@@ -6450,7 +6465,7 @@ You need to be able to deploy a container instance by using image1.
 Solution: You set Admin user to Enable for Registry1.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -6469,7 +6484,8 @@ How should you complete the command? To answer, select the appropriate options i
 NOTE: Each correct selection is worth one point.
 ![](images/image602.png)
 
-**Correct Answer:** ![](images/image603.png)
+**Correct Answer:** ✅ 
+![](images/image603.png)
 
 ---
 
@@ -6486,7 +6502,7 @@ Use the drop-down menus to select the answer choice that answers each question b
 NOTE: Each correct selection is worth one point.
 ![](images/image606.png)
 
-**Correct Answer:** ![](images/image607.png)
+**Correct Answer:** ✅ 3 instances / 5 minutes
 
 ---
 
@@ -6500,7 +6516,7 @@ Which instances can you deploy to a container group?
 - A. Instance1 only
 - B. Instance2 only
 - C. Instance1 and Instance2 only
-- D. Instance3 and Instance4 only
+- ✅ D. Instance3 and Instance4 only
 
 **Correct Answer:** D
 
@@ -6516,7 +6532,7 @@ Which two settings should you configure for contoso2023? To answer, select the a
 NOTE: Each correct answer is worth one point.
 ![](images/image841.png)
 
-**Correct Answer:** ![](images/image842.png)
+**Correct Answer:** ✅ Overview/ Networking
 
 ---
 
@@ -6528,7 +6544,7 @@ You plan to deploy an Instance of Azure Firewall Premium named FW1.
 Which IP addresses can you use?
 
 - A. IP2 only
-- B. IP1 and IP2 only
+- ✅ B. IP1 and IP2 only
 - C. IP1, IP2, and IP5 only
 - D. IP1, IP2, IP4, and IP5 only
 
@@ -6546,7 +6562,8 @@ How should you complete the template? To answer, select the appropriate options 
 NOTE: Each correct selection is worth one point.
 ![](images/image676.png)
 
-**Correct Answer:** ![](images/image677.png)
+**Correct Answer:** ✅ 
+![](images/image677.png)
 
 ---
 
@@ -6562,7 +6579,7 @@ Which pricing plan should you choose, and which type of record should you use to
 NOTE: Each correct answer is worth one point.
 ![](images/image686.png)
 
-**Correct Answer:** ![](images/image687.png)
+**Correct Answer:** ✅ ![](images/image687.png)
 
 ---
 
@@ -6580,7 +6597,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image716.png)
 
-**Correct Answer:** ![](images/image717.png)
+**Correct Answer:** ✅ Yes/ Yes/ Yes
 
 ---
 
@@ -6591,7 +6608,7 @@ You plan to create the Azure web apps shown in the following table.
 What is the minimum number of App Service plans you should create for the web apps?
 
 - A. 1
-- B. 2
+- ✅ B. 2
 - C. 3
 - D. 4
 
@@ -6613,7 +6630,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image722.png)
 
-**Correct Answer:** ![](images/image723.png)
+**Correct Answer:** ✅ Yes/ No/ No
 
 ---
 
@@ -6629,7 +6646,7 @@ What is the maximum number of instances for App1 during the 30-minute period?
 - A. 2
 - B. 3
 - C. 4
-- D. 5
+- ✅ D. 5
 
 **Correct Answer:** D
 
@@ -6649,7 +6666,8 @@ In which services can you run the images? To answer, select the options in the a
 NOTE: Each correct answer is worth one point.
 ![](images/image726.png)
 
-**Correct Answer:** ![](images/image727.png)
+**Correct Answer:** ✅ 
+![](images/image727.png)
 
 ---
 
@@ -6662,7 +6680,7 @@ You need to configure App1 to use the wildcard certificate of KV1.
 What should you do first?
 
 - A. Create an access policy for KV1 and assign the Microsoft Azure App Service principal to the policy.
-- B. Assign a managed user identity to App1.
+- ✅ B. Assign a managed user identity to App1.
 - C. Configure KV1 to use the role-based access control (RBAC) authorization system.
 - D. Create an access policy for KV1 and assign the policy to User1.
 
@@ -6679,7 +6697,7 @@ You need to create a single Azure Resource Manager (ARM) template that will be u
 Which resource should be added to the dependsOn section for VM1?
 
 - A. VNET1
-- B. NIC1
+- ✅ B. NIC1
 - C. IP1
 - D. NSG1
 
@@ -6695,13 +6713,16 @@ You create the following Azure Resource Manager (ARM) template named Template.js
 You need to deploy Template.json.
 Which PowerShell cmdlet should you run from Azure Cloud Shell?
 
-- A. New-AzSubscriptionDeployment
+- ✅ A. New-AzSubscriptionDeployment
 - B. New-AzManagementGroupDeployment
 - C. New-AzResourceGroupDeployment
 - D. New-AzTenantDeployment
 
 **Correct Answer:** A
-
+Deploy across entire subscription: New-AzSubscriptionDeployment
+Deploy across subscriptions in a management group: New-AzManagementGroupDeployment
+Deploy within a specific resource group: New-AzResourceGroupDeployment
+Deploy across entire organization (rare): New-AzTenantDeployment
 ---
 
 ### Question 353: Question #101 Topic 4
@@ -6713,7 +6734,7 @@ You need to modify File1 so that it can be used to automate the deployment of st
 Which property should you modify?
 
 - A. kind
-- B. scope
+- ✅ B. scope
 - C. sku
 - D. location
 
@@ -6734,7 +6755,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image788.png)
 
-**Correct Answer:** ![](images/image789.png)
+**Correct Answer:** ✅ 
+![](images/image789.png)
 
 ---
 
@@ -6747,7 +6769,7 @@ Which proximity placement groups should you use?
 
 - A. Proximity2 only
 - B. Proximity1, Proximity2, and Proximity3
-- C. Proximity1 only
+- ✅ C. Proximity1 only
 - D. Proximity1 and Proximity3 only
 
 **Correct Answer:** C
@@ -6768,7 +6790,7 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image812.png)
 
-**Correct Answer:** ![](images/image813.png)
+**Correct Answer:** ✅ Yes/ No/ Yes
 
 ---
 
@@ -6784,7 +6806,7 @@ Which virtual machines can be backed up to Vault1?
 - A. VM1 only
 - B. VM3 and VMC only
 - C. VM1, VM2, VM3, VMA, VMB, and VMC
-- D. VM1, VM3, VMA, and VMC only
+- ✅ D. VM1, VM3, VMA, and VMC only
 - E. VM1 and VM3 only
 
 **Correct Answer:** D
@@ -6800,7 +6822,7 @@ Which username can you use to sign in to ContReg1?
 - A. root
 - B. admin
 - C. administrator
-- D. ContReg1
+- ✅ D. ContReg1
 
 **Correct Answer:** D
 
@@ -6816,7 +6838,7 @@ What should you do for ContReg1?
 - A. Enable encryption by using a customer-managed key.
 - B. Create a connected registry.
 - C. Add a token.
-- D. Enable content trust.
+- ✅ D. Enable content trust.
 
 **Correct Answer:** D
 
