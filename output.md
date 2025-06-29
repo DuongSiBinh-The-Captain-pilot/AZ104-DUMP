@@ -7976,8 +7976,15 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0040900001.png)
 
-**Correct Answer:** ![](images/0040900002.png)
+**Correct Answer:** ✅ No/ Yes/ Yes
+Box 1: No
+NSG1 limits the traffic that is flowing into 172.16.2.0/24 (Subnet2), which host VM2.
 
+Box 2: Yes
+Since Network Watcher is showing that traffic from VM1 to VM2 is not reaching on the TCP port, that means that NSG1 is applied to VM2. We can understand for sure, that it is not applied to VM1.
+
+Box 3: Yes
+In Network Watcher, you can see that the next hop is the destination VM2. This means that they are part of the same virtual network.
 _Explanation:_
 Box 1: No -
 It limits traffic to VM2, but not VM1 traffic.
@@ -7999,7 +8006,7 @@ You need to prevent RDP access to the virtual machines from the Internet, unless
 What should you do?
 
 - A. Modify the address space of the local network gateway
-- B. Create a deny rule in a network security group (NSG) that is linked to Subnet1
+- ✅ B. Create a deny rule in a network security group (NSG) that is linked to Subnet1
 - C. Remove the public IP addresses from the virtual machines
 - D. Modify the address space of Subnet1
 
@@ -8015,7 +8022,7 @@ Subnet1 is associated to VNet1. NIC1 attaches VM1 to Subnet1.
 You need to apply ASG1 to VM1.
 What should you do?
 
-- A. Associate NIC1 to ASG1
+- ✅ A. Associate NIC1 to ASG1
 - B. Modify the properties of ASG1
 - C. Modify the properties of NSG1
 
@@ -8032,9 +8039,9 @@ You need to connect VNet1 to the on-premises network by using a site-to-site VPN
 Which three actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. Create a connection
-- B. Create a local site VPN gateway
-- C. Create a VPN gateway that uses the VpnGw1 SKU
+- ✅ A. Create a connection
+- ✅ B. Create a local site VPN gateway
+- ✅ C. Create a VPN gateway that uses the VpnGw1 SKU
 - D. Create a gateway subnet
 - E. Create a VPN gateway that uses the Basic SKU
 
@@ -8052,7 +8059,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0041300002.jpg)
 
-**Correct Answer:** ![](images/0041400001.jpg)
+**Correct Answer:** ✅ 
+![](images/0041400001.jpg)
 
 _Explanation:_
 Box 1: vNET6 only -
@@ -8079,7 +8087,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0041700001.jpg)
 
-**Correct Answer:** ![](images/0041700002.jpg)
+**Correct Answer:** ✅ 
+![](images/0041700002.jpg)
 
 _Explanation:_
 Box 1: Yes -
@@ -8109,7 +8118,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0041900001.jpg)
 
-**Correct Answer:** ![](images/0041900002.jpg)
+**Correct Answer:** ✅ 
+![](images/0041900002.jpg)
 
 _Explanation:_
 Change the private IP address of VM1 to static
@@ -8130,7 +8140,7 @@ You need to create a network interface named NIC1.
 In which location can you create NIC1?
 
 - A. East US and North Europe only
-- B. East US only
+- ✅ B. East US only
 - C. East US, West Europe, and North Europe
 - D. East US and West Europe only
 
@@ -8150,7 +8160,7 @@ You need to ensure that VM1 can resolve host names in adatum.com.
 What should you do?
 
 - A. Update the DNS suffix on VM1 to be adatum.com
-- B. Configure the name servers for adatum.com at the domain registrar
+- ✅ B. Configure the name servers for adatum.com at the domain registrar
 - C. Create an SRV record in the contoso.com zone
 - D. Modify the Access control (IAM) settings for link1
 
@@ -8169,7 +8179,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0042400001.jpg)
 
-**Correct Answer:** ![](images/0042500001.jpg)
+**Correct Answer:** ✅ 
+![](images/0042500001.jpg)
 
 _Explanation:_
 Box 1: IP flow verify -
@@ -8198,7 +8209,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0042700002.jpg)
 
-**Correct Answer:** ![](images/0042800001.jpg)
+**Correct Answer:** ✅ ![](images/0042800001.jpg)
 
 _Explanation:_
 Box 1: Yes -
@@ -8225,8 +8236,11 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0043000001.jpg)
 
-**Correct Answer:** ![](images/0043100001.jpg)
+**Correct Answer:** ✅ 
+Box 1: IP1, VNET2, and storage1
+Box 2: IP2, VNET2, and storage2
 
+Locks are designed for any update or removal. In this case we want to move only, we are not deleting, and we are not changing anything in the resource.
 _Explanation:_
 Box 1: IP1, Storage1 -
 IP addresses and storage accounts can be moved.
@@ -8259,7 +8273,7 @@ Solution: You create a Basic SKU public IP address, associate the address to the
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8281,7 +8295,7 @@ Solution: You create a Standard SKU public IP address, associate the address to 
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8308,7 +8322,7 @@ You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
 Solution: You create two Standard SKU public IP addresses and associate a Standard SKU public IP address to the network interface of each virtual machine.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -8325,7 +8339,7 @@ You need to ensure that you can establish a point-to-site VPN connection to VNet
 Solution: You export the client certificate from Computer1 and install the certificate on Computer2.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -8343,7 +8357,7 @@ What should you do?
 
 - A. Modify the protocol of Rule4
 - B. Delete Rule1
-- C. For Rule5, change the Action to Allow and change the priority to 401
+- ✅ C. For Rule5, change the Action to Allow and change the priority to 401
 - D. Create a new inbound rule that allows TCP protocol 443 and configure the rule to have a priority of 501.
 
 **Correct Answer:** C
@@ -8361,10 +8375,12 @@ Solution: From the Resource providers blade, you unregister the Microsoft.Classi
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+You should use a policy de¬nition.
+Resource policy de¬nition used by Azure Policy enables you to establish conventions for resources in your organization by describing when the
+policy is enforced and what effect to take. By de¬ning conventions, you can control costs and more easily manage your resources.
 ---
 
 ### Question 429: Question #56 Topic 5
@@ -8386,17 +8402,21 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0044100001.png)
 
-**Correct Answer:** ![](images/0044100002.png)
-
+**Correct Answer:** ✅ 
 _Explanation:_
-Box 1: Yes -
-With VNet-to-VNet you can connect Virtual Networks in Azure across different regions.
-Box 2: Yes -
-Azure supports the following types of peering:
-✑ Virtual network peering: Connect virtual networks within the same Azure region.
-✑ Global virtual network peering: Connecting virtual networks across Azure regions.
-Box 3: No -
-The virtual networks you peer must have non-overlapping IP address spaces.
+VNET1: 10.10.10.0 - 10.10.10.255
+VNET2: 172.16.0.0 - 172.16.255.255
+VNETA: 10.10.128.0 - 10.10.255.255
+
+Box 1: No
+To create a VNet to VNet VPN you need to have a special Gateway Subnet. Here, the VNet has no sufficient address space to create a Gateway Subnet and thus to establish a VNet to VNet VPN connection.
+
+Box 2: Yes
+For VNet peering the only consideration is that the VNets do not overlap. VNET1 and VNET2 do not overlap.
+
+Box 3: Yes
+For VNet peering the only consideration is that the VNets do not overlap. VNET1 and VNETA do not overlap.
+
 Reference:
 https://azure.microsoft.com/en-us/blog/vnet-to-vnet-connecting-virtual-networks-in-azure-across-different-regions/ https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints
 
@@ -8417,7 +8437,7 @@ Solution: You create an inbound security rule that denies all traffic from the 1
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8438,7 +8458,7 @@ Solution: You delete the BlockAllOther443 inbound security rule.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8459,7 +8479,7 @@ Solution: You modify the priority of the Allow_131.107.100.50 inbound security r
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8476,10 +8496,10 @@ Solution: You assign a built-in policy definition to the subscription.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
-
+You need to use a custom policy definition, because there is not a built-in policy.
 ---
 
 ### Question 434: Question #61 Topic 5
@@ -8490,7 +8510,7 @@ For the AKS cluster, you need to choose a network type that will support App1.
 What should you choose?
 
 - A. kubenet
-- B. Azure Container Networking Interface (CNI)
+- ✅ B. Azure Container Networking Interface (CNI)
 - C. Hybrid Connection endpoints
 - D. Azure Private Link
 
@@ -8513,7 +8533,7 @@ You need to ensure that you can add VM1 and VM2 to the backend pool of LB1.
 Solution: You disassociate the public IP address from the network interface of VM2.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -8530,7 +8550,7 @@ You need to ensure that when an NSG is created, it automatically blocks TCP port
 Solution: You configure a custom policy definition, and then you assign the policy to the subscription.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -8547,7 +8567,7 @@ Which Azure Network Watcher feature should you use?
 
 - A. IP flow verify
 - B. Connection troubleshoot
-- C. Connection monitor
+- ✅ C. Connection monitor
 - D. NSG flow logs
 
 **Correct Answer:** C
@@ -8566,7 +8586,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0045100001.jpg)
 
-**Correct Answer:** ![](images/0045100002.jpg)
+**Correct Answer:** ✅ ![](images/0045100002.jpg)
 
 _Explanation:_
 Box 1: be created in the same availability set or virtual machine scale set.
@@ -8588,15 +8608,17 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0045300001.jpg)
 
-**Correct Answer:** ![](images/0045400001.jpg)
-
+**Correct Answer:** ✅ 2/ 1/ 1
 _Explanation:_
-Box 1: 4 -
-Two public IP addresses in the on-premises data center, and two public IP addresses in the VNET.
-The most reliable option is to combine the active-active gateways on both your network and Azure, as shown in the diagram below.
-Box 2: 2 -
+The questions asks how many are required in Azure, so the on-premise ones should not be counted.
+
+Box 1: 2
+2 public IP addresses in the on-premises data center, and 2 public IP addresses in the VNET for the active-active. The most reliable option is to combine the active-active gateways on both your network and Azure, as shown in the diagram below.
+
+Box 2: 1
 Every Azure VPN gateway consists of two instances in an active-standby configuration. For any planned maintenance or unplanned disruption that happens to the active instance, the standby instance would take over (failover) automatically, and resume the S2S VPN or VNet-to-VNet connections.
-Box 3: 2 -
+
+Box 3: 1
 Dual-redundancy: active-active VPN gateways for both Azure and on-premises networks
 Reference:
 https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-highlyavailable
@@ -8613,7 +8635,7 @@ Which FQDN will be returned?
 - A. vm1.core.windows.net
 - B. vm1.azure.com
 - C. vm1.westeurope.cloudapp.azure.com
-- D. vm1.internal.cloudapp.net
+- ✅ D. vm1.internal.cloudapp.net
 
 **Correct Answer:** D
 
@@ -8634,7 +8656,7 @@ Solution: You create an inbound security rule that allows any traffic from the A
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8649,9 +8671,9 @@ NOTE: Each correct selection is worth one point.
 
 - A. Add a service endpoint to VNet1
 - B. Reset GW1
-- C. Create a route-based virtual network gateway
+- ✅ C. Create a route-based virtual network gateway
 - D. Add a connection to GW1
-- E. Delete GW1
+- ✅ E. Delete GW1
 - F. Add a public IP address space to VNet1
 
 **Correct Answer:** CE
@@ -8670,7 +8692,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0046000001.jpg)
 
-**Correct Answer:** ![](images/0046000002.jpg)
+**Correct Answer:** ✅ 
+![](images/0046000002.jpg)
 
 _Explanation:_
 Box 1: No -
@@ -8699,9 +8722,25 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0046200002.png)
 
-**Correct Answer:** ![](images/0046300001.png)
+**Correct Answer:** ✅ Yes/ Yes/ Yes
 
 _Explanation:_
+A virtual network can be linked to private DNS zone as a registration or as a resolution virtual network.
+
+Registration virtual network:
+A private DNS zone can have multiple registration virtual networks. However, every virtual network can only have one registration zone associated with it.
+
+Resolution virtual network:
+One private DNS zone can have multiple resolution virtual networks and a virtual network can have multiple resolution zones associated to it.
+
+1. Yes
+No registration zone for VNET2.
+
+2. Yes
+A virtual network can have multiple resolution zones associated to it.
+
+3. Yes
+No registration zone for VNET2.
 Reference:
 https://docs.microsoft.com/en-us/azure/dns/private-dns-virtual-network-links https://docs.microsoft.com/en-us/azure/dns/private-dns-autoregistration
 
@@ -8717,7 +8756,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0046400001.png)
 
-**Correct Answer:** ![](images/0046500001.png)
+**Correct Answer:** ✅ 
+![](images/0046500001.png)
 
 _Explanation:_
 Reference:
@@ -8735,7 +8775,7 @@ You need to inspect all the network traffic from VM1 to VM2 for a period of thre
 Solution: From Azure Network Watcher, you create a packet capture.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -8753,7 +8793,7 @@ Solution: From Azure Network Watcher, you create a connection monitor.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8770,7 +8810,7 @@ Solution: From Performance Monitor, you create a Data Collector Set (DCS).
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8786,7 +8826,8 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0046900001.jpg)
 
-**Correct Answer:** ![](images/0047000001.jpg)
+**Correct Answer:** ✅ 
+![](images/0047000001.jpg)
 
 _Explanation:_
 Reference:
@@ -8805,7 +8846,7 @@ Solution: From Azure Monitor, you create a metric on Network In and Network Out.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8826,7 +8867,7 @@ Solution: You create an inbound security rule that denies all traffic from the 1
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8841,7 +8882,8 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Select and Place:
 ![](images/0047300001.jpg)
 
-**Correct Answer:** ![](images/0047300002.jpg)
+**Correct Answer:** ✅ 
+![](images/0047300002.jpg)
 
 _Explanation:_
 Reference:
@@ -8867,7 +8909,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0047500002.png)
 
-**Correct Answer:** ![](images/0047500003.png)
+**Correct Answer:** ✅ No/ Yes/ No
 
 ---
 
@@ -8880,7 +8922,7 @@ You plan to peer VNet1 to another virtual network named VNet2. VNet2 has an addr
 You need to create the peering.
 What should you do first?
 
-- A. Modify the address space of VNet1.
+- ✅ A. Modify the address space of VNet1.
 - B. Add a gateway subnet to VNet1.
 - C. Create a subnet on VNet1 and VNet2.
 - D. Configure a service endpoint on VNet2.
@@ -8900,7 +8942,7 @@ Which DNS names can you use to ping VM2?
 
 - A. comp2.contoso.com and comp4.contoso.com only
 - B. comp1.contoso.com, comp2.contoso.com, comp3.contoso.com, and comp4.contoso.com
-- C. comp2.contoso.com only
+- ✅ C. comp2.contoso.com only
 - D. comp1.contoso.com and comp2.contoso.com only
 - E. comp1.contoso.com, comp2.contoso.com, and comp4.contoso.com only
 
@@ -8921,7 +8963,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0048000001.jpg)
 
-**Correct Answer:** ![](images/0048100001.jpg)
+**Correct Answer:** ✅ ![](images/0048100001.jpg)
 
 _Explanation:_
 Reference:
