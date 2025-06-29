@@ -3287,7 +3287,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0017900001.png)
 
-**Correct Answer:** ✅ ![](images/0018000001.png)
+**Correct Answer:** ✅ 
+![](images/0018000001.png)
 
 _Explanation:_
 Box 1: VM1 only -
@@ -6855,7 +6856,8 @@ Which container registries support ACR Tasks and private endpoints? To answer, s
 NOTE: Each correct selection is worth one point.
 ![](images/image830.png)
 
-**Correct Answer:** ![](images/image831.png)
+**Correct Answer:** ✅ 
+![](images/image831.png)
 
 ---
 
@@ -6865,7 +6867,7 @@ You plan to deploy several Azure virtual machines that will run Windows Server 2
 You need to ensure that NGINX is available on all the virtual machines after they are deployed.
 What should you use?
 
-- A. Azure Custom Script Extension
+- ✅ A. Azure Custom Script Extension
 - B. Deployment Center in Azure App Service
 - C. Microsoft Entra Application Proxy
 - D. the Publish-AzVMDscConfiguration cmdlet
@@ -6883,7 +6885,7 @@ What should you do?
 
 - A. Increase the resource limit of container1 to three CPUs.
 - B. Increase the resource limit of container2 to six CPUs.
-- C. Remove the resource limit for both containers.
+- ✅ C. Remove the resource limit for both containers.
 - D. Decrease the resource limit of container2 to two CPUs.
 
 **Correct Answer:** C
@@ -6899,7 +6901,7 @@ What should you recommend?
 
 - A. Azure Container Apps only
 - B. Azure Container Instances only
-- C. Azure Container Apps or Azure App Service only
+- ✅ C. Azure Container Apps or Azure App Service only
 - D. Azure Container Instances or Azure App Service only
 - E. Azure Container Apps, Azure Container Instances, or Azure App Service
 
@@ -6919,7 +6921,8 @@ Which command should you run for each requirement? To answer, select the options
 NOTE: Each correct answer is worth one point.
 ![](images/image833.png)
 
-**Correct Answer:** ![](images/image834.png)
+**Correct Answer:** ✅ 
+![](images/image834.png)
 
 ---
 
@@ -6934,7 +6937,7 @@ Solution: You assign the AcrPull role to ACR-Tasks-Network for Registry1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6951,7 +6954,7 @@ Solution: You select Use dedicated data endpoint for Registry1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6968,7 +6971,7 @@ Solution: You create a private endpoint connection for Registry1.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -6981,7 +6984,7 @@ You need to ensure that Plan1 will scale automatically when the CPU usage of the
 What should you select for Plan1?
 
 - A. Automatic in the Scale out method settings
-- B. Rules Based in the Scale out method settings
+- ✅ B. Rules Based in the Scale out method settings
 - C. Premium P1 in the Scale up (App Service plan) settings
 - D. Standard S1 in the Scale up (App Service plan) settings
 - E. Manual in the Scale out method settings
@@ -7044,7 +7047,7 @@ You need to configure WebApp1 to meet the technical requirements.
 Which certificate can you use from Vault1?
 
 - A. Cert1 only
-- B. Cert1 or Cert2 only
+- ✅ B. Cert1 or Cert2 only
 - C. Cert1 or Cert3 only
 - D. Cert3 or Cert4 only
 - E. Cert1, Cert2 Cert3, or Cert4
@@ -7064,7 +7067,7 @@ Solution: From the resource group blade, move VM1 to another subscription.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7080,7 +7083,7 @@ You need to move VM1 to a different host immediately.
 Solution: From the VM1 Redeploy + reapply blade, you select Redeploy.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -7098,7 +7101,7 @@ Solution: From the VM1 Updates blade, select One-time update.
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7160,7 +7163,7 @@ Which PowerShell cmdlet and key should you use?
 - A. Set-AzVMDiskEncryptionExtension and Key2.
 - B. Set-AzDiskEncryptionKey and Key2.
 - C. Set-AzDiskDiskEncryptionKey and Key1.
-- D. Set-AzVMDiskEncryptionExtension and Key1.
+- ✅ D. Set-AzVMDiskEncryptionExtension and Key1.
 
 **Correct Answer:** D
 
@@ -7180,7 +7183,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0034800001.jpg)
 
-**Correct Answer:** ![](images/0034800002.jpg)
+**Correct Answer:** ✅ ![](images/0034800002.jpg)
 
 _Explanation:_
 Box 1: an internal load balancer
@@ -7200,7 +7203,7 @@ You need to connect the datacenters to the subscription. The solution must minim
 What should you create?
 
 - A. three Azure Application Gateways and one On-premises data gateway
-- B. three virtual hubs and one virtual WAN
+- ✅ B. three virtual hubs and one virtual WAN
 - C. three virtual WANs and one virtual hub
 - D. three On-premises data gateways and one Azure Application Gateway
 
@@ -7219,7 +7222,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0035000001.jpg)
 
-**Correct Answer:** ![](images/0035100001.jpg)
+**Correct Answer:** ✅ 
+![](images/0035100001.jpg)
 
 _Explanation:_
 Box 1: 5 -
@@ -7242,7 +7246,7 @@ You plan to create new inbound NAT rules that meet the following requirements:
 ✑ Provide Remote Desktop access to VM2 from the internet by using port 3389.
 What should you create on LB1 before you can create the new inbound NAT rules?
 
-- A. a frontend IP address
+- ✅ A. a frontend IP address
 - B. a load balancing rule
 - C. a health probe
 - D. a backend pool
@@ -7262,7 +7266,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0035400001.jpg)
 
-**Correct Answer:** ![](images/0035400002.jpg)
+**Correct Answer:** ✅ 
+![](images/0035400002.jpg)
 
 _Explanation:_
 The virtual machines are registered (added) to the private zone as A records pointing to their private IP addresses.
@@ -7283,7 +7288,12 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0035600001.png)
 
-**Correct Answer:** ![](images/0035600002.png)
+**Correct Answer:** ✅ 
+Box 1: An Azure Log Analytics workspace
+In the Azure portal you can set up a Log Analytics workspace, which is a unique Log Analytics environment with its own data repository, data sources, and solutions.
+
+Box 2: NSG1
+NSG flow logs allow viewing information about ingress and egress IP traffic through a Network security group. Through this, the IP addresses that connect to the ILB can be monitored when the diagnostics are enabled on a Network Security Group.
 
 _Explanation:_
 Box 1: An Azure Log Analytics workspace
@@ -7302,7 +7312,7 @@ To which virtual networks can you establish a peering connection from VNet1?
 
 - A. VNet2 andVNet3 only
 - B. VNet2 only
-- C. VNet3 and VNet4 only
+- ✅ C. VNet3 and VNet4 only
 - D. VNet2, VNet3, and VNet4
 
 **Correct Answer:** C
@@ -7320,11 +7330,11 @@ Which three actions should you perform? Each correct answer presents part of the
 NOTE: Each correct selection is worth one point.
 
 - A. Deploy a basic load balancer
-- B. Deploy a standard load balancer
-- C. Add two load balancing rules that have HA Ports and Floating IP enabled
+- ✅ B. Deploy a standard load balancer
+- ✅ C. Add two load balancing rules that have HA Ports and Floating IP enabled
 - D. Add two load balancing rules that have HA Ports enabled and Floating IP disabled
 - E. Add a frontend IP configuration, a backend pool, and a health probe
-- F. Add a frontend IP configuration, two backend pools, and a health probe
+- ✅ F. Add a frontend IP configuration, two backend pools, and a health probe
 
 **Correct Answer:** BCF
 
@@ -7339,7 +7349,7 @@ You configure virtual network peering between VNet1 and VNet2. You verify that y
 You need to ensure that you can connect Client1 to VNet2.
 What should you do?
 
-- A. Download and re-install the VPN client configuration package on Client1.
+- ✅ A. Download and re-install the VPN client configuration package on Client1.
 - B. Select Allow gateway transit on VNet1.
 - C. Select Allow gateway transit on VNet2.
 - D. Enable BGP on VPNGW1
@@ -7361,7 +7371,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0036200001.jpg)
 
-**Correct Answer:** ![](images/0036200002.jpg)
+**Correct Answer:** ✅ 
+![](images/0036200002.jpg)
 
 _Explanation:_
 Reference:
@@ -7378,7 +7389,7 @@ To which subnets can you apply NSG1?
 - A. the subnets on VNet1 only
 - B. the subnets on VNet2 and VNet3 only
 - C. the subnets on VNet2 only
-- D. the subnets on VNet3 only
+- ✅ D. the subnets on VNet3 only
 - E. the subnets on VNet1, VNet2, and VNet3
 
 **Correct Answer:** D
@@ -7396,7 +7407,8 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0036400001.png)
 
-**Correct Answer:** ![](images/0036500001.png)
+**Correct Answer:** ✅ 
+![](images/0036500001.png)
 
 _Explanation:_
 Step 1: Remove peering between Vnet1 and VNet2.
@@ -7423,7 +7435,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0036700001.jpg)
 
-**Correct Answer:** ![](images/0036700002.jpg)
+**Correct Answer:** ✅ Yes/ Yes/ No
 
 _Explanation:_
 Box 1: Yes -
@@ -7446,7 +7458,7 @@ What should you do?
 
 - A. Deploy an internal load balancer
 - B. Peer VNET1 to another virtual network
-- C. Connect webapp1 to VNET1
+- ✅ C. Connect webapp1 to VNET1
 - D. Deploy an Azure Application Gateway
 
 **Correct Answer:** C
@@ -7462,7 +7474,7 @@ You need to enable Desired State Configuration for VM1.
 What should you do first?
 
 - A. Connect to VM1.
-- B. Start VM1.
+- ✅ B. Start VM1.
 - C. Capture a snapshot of VM1.
 - D. Configure a DNS name for VM1.
 
@@ -7480,7 +7492,7 @@ What should you configure?
 - A. Floating IP (direct server return) to Disabled
 - B. Session persistence to None
 - C. Floating IP (direct server return) to Enabled
-- D. Session persistence to Client IP
+- ✅ D. Session persistence to Client IP
 
 **Correct Answer:** D
 
@@ -7508,7 +7520,7 @@ You need to be able to establish Remote Desktop connections from the internet to
 Solution: You add an inbound security rule to NSG-Subnet1 that allows connections from the Any source to the *destination for port range 3389 and uses the TCP protocol. You remove NSG-VM1 from the network interface of VM1.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -7539,7 +7551,7 @@ Solution: You add an inbound security rule to NSG-Subnet1 that allows connection
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7567,11 +7579,12 @@ You need to be able to establish Remote Desktop connections from the internet to
 Solution: You add an inbound security rule to NSG-Subnet1 and NSG-VM1 that allows connections from the internet source to the VirtualNetwork destination for port range 3389 and uses the TCP protocol.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
-
+The default port for RDP is TCP port 3389. A rule to permit RDP tra®c must be created automatically when you create your VM.
+Note on NSG-Subnet1: Azure routes network tra®c between all subnets in a virtual network, by default.
 ---
 
 ### Question 393: Question #20 Topic 5
@@ -7584,7 +7597,9 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0037600001.png)
 
-**Correct Answer:** ![](images/0037700001.png)
+**Correct Answer:** ✅ 
+Box 1: add an address space
+Box 2: add a subnet
 
 _Explanation:_
 Box 1: add an address space -
@@ -7608,11 +7623,16 @@ You need to create network security groups (NSGs) to meet following requirements
 ✑ Prevent all other network traffic to VNET1.
 What is the minimum number of NSGs you should create?
 
-- A. 1
+- ✅ A. 1
 - B. 3
 - C. 4
 - D. 12
-
+NSGs can be associated to subnets, individual VMs (classic), or individual network interfaces (NIC) attached to VMs (Resource Manager). You can associate zero, or one, NSG(s) to each VNet subnet and NIC in a virtual machine. The same NSG can be associated to as many subnets and NICs as you choose.
+So, you can create 1 NSG and associate it with all 3 Subnets.
+- Allow web requests from internet to VM3, VM4, VM5 and VM 6: You need to add an inbound rule to allow Internet TCP 80 to VM3, VM4, VM5 and VM6 static IP addresses.
+- Allow all connections between VM1 & VM2: You do not need an NSG as communication in the same VNet is allowed by default, without even configuring NSG.
+- Allow remote desktop to VM1: You need to add an inbound rule to allow RDP 3389 in VM1’s static IP address .
+- Prevent all other network traffic to VNET1: You do not need to configure any NSG as the there is explicit deny rule (DenyAllInbound) in every NSG.
 **Correct Answer:** A
 
 ---
@@ -7627,7 +7647,7 @@ Microsoft.Compute/virtualMachines
 In RG1, you need to create a new virtual machine named VM2, and then connect VM2 to VNET1.
 What should you do first?
 
-- A. Remove Microsoft.Compute/virtualMachines from the policy.
+- ✅ A. Remove Microsoft.Compute/virtualMachines from the policy.
 - B. Create an Azure Resource Manager template
 - C. Add a subnet to VNET1.
 - D. Remove Microsoft.Network/virtualNetworks from the policy.
@@ -7647,7 +7667,7 @@ You manage Server1 and Subscription1 from Server2. Server2 has the following too
 You need to move the adatum.com zone to an Azure DNS zone in Subscription1. The solution must minimize administrative effort.
 What should you use?
 
-- A. Azure CLI
+- ✅ A. Azure CLI
 - B. Azure PowerShell
 - C. the Azure portal
 - D. the DNS Manager console
@@ -7662,7 +7682,7 @@ You have a public load balancer that balances ports 80 and 443 across three virt
 You need to direct all the Remote Desktop Protocol (RDP) connections to VM3 only.
 What should you configure?
 
-- A. an inbound NAT rule
+- ✅ A. an inbound NAT rule
 - B. a new public load balancer for VM3
 - C. a frontend IP configuration
 - D. a load balancing rule
@@ -7689,7 +7709,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0038200007.jpg)
 
-**Correct Answer:** ![](images/0038300001.jpg)
+**Correct Answer:** ✅ 
+![](images/0038300001.jpg)
 
 _Explanation:_
 Reference:
@@ -7715,7 +7736,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0038400002.png)
 
-**Correct Answer:** ![](images/0038500001.png)
+**Correct Answer:** ✅ 
+![](images/0038500001.png)
 
 _Explanation:_
 Reference:
@@ -7734,7 +7756,8 @@ NOTE: More than one order of answer choice is correct. You will receive credit f
 Select and Place:
 ![](images/0038600001.png)
 
-**Correct Answer:** ![](images/0038700001.png)
+**Correct Answer:** ✅ 
+![](images/0038700001.png)
 
 ---
 
@@ -7750,7 +7773,7 @@ What should you do?
 
 - A. Disassociate the NSG from a network interface
 - B. Change the Port_80 inbound security rule.
-- C. Associate the NSG to Subnet1.
+- ✅ C. Associate the NSG to Subnet1.
 - D. Change the DenyWebSites outbound security rule.
 
 **Correct Answer:** C
@@ -7768,7 +7791,7 @@ What should you do first?
 - A. Move VM1 to Subscription2.
 - B. Move VNet1 to Subscription2.
 - C. Modify the IP address space of VNet2.
-- D. Provision virtual network gateways.
+- ✅ D. Provision virtual network gateways.
 
 **Correct Answer:** D
 
@@ -7784,9 +7807,9 @@ You need to ensure that VM1 can be created in an Availability Zone.
 Which two settings should you modify? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. Use managed disks
+- ✅ A. Use managed disks
 - B. OS disk type
-- C. Availability options
+- ✅ C. Availability options
 - D. Size
 - E. Image
 
@@ -7806,7 +7829,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0039500002.png)
 
-**Correct Answer:** ![](images/0039600001.png)
+**Correct Answer:** ✅ 
+![](images/0039600001.png)
 
 _Explanation:_
 Box 1: RG1, RG2, or RG3 -
@@ -7835,7 +7859,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0039800002.png)
 
-**Correct Answer:** ![](images/0039900001.png)
+**Correct Answer:** ✅ 
+![](images/0039900001.png)
 
 _Explanation:_
 Box 1. VNET2 and VNET3 -
@@ -7857,7 +7882,7 @@ Solution: You modify the Azure Active Directory (Azure AD) authentication polici
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7874,7 +7899,7 @@ Solution: You join Computer2 to Azure Active Directory (Azure AD).
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7891,7 +7916,7 @@ Solution: You create a resource lock, and then you assign the lock to the subscr
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -7910,7 +7935,7 @@ What should you do first?
 - A. Change the priority of the RDP rule
 - B. Attach a network interface
 - C. Delete the DenyAllInBound rule
-- D. Start VM1
+- ✅ D. Start VM1
 
 **Correct Answer:** D
 
@@ -7929,7 +7954,7 @@ What should you do?
 - A. Configure a conditional forwarder on VM1
 - B. Add service endpoints on VNET1
 - C. Add service endpoints on VNET2 and VNET3
-- D. Configure peering between VNET1, VNET2, and VNET3
+- ✅ D. Configure peering between VNET1, VNET2, and VNET3
 
 **Correct Answer:** D
 
