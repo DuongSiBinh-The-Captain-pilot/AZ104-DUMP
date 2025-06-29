@@ -8963,7 +8963,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0048000001.jpg)
 
-**Correct Answer:** ✅ ![](images/0048100001.jpg)
+**Correct Answer:** ✅ 
+![](images/0048100001.jpg)
 
 _Explanation:_
 Reference:
@@ -8982,7 +8983,7 @@ Solution: On Computer2, you set the Startup type for the IPSec Policy Agent serv
 Does this meet the goal?
 
 - A. Yes
-- B. No
+- ✅ B. No
 
 **Correct Answer:** B
 
@@ -8995,7 +8996,7 @@ You have an Azure load balancer named LB1 that provides load balancing services 
 You need to ensure that visitors are serviced by the same web server for each request.
 What should you configure?
 
-- A. Session persistence to Client IP and protocol
+- ✅ A. Session persistence to Client IP and protocol
 - B. Protocol to UDP
 - C. Session persistence to None
 - D. Floating IP (direct server return) to Enabled
@@ -9013,7 +9014,7 @@ Which public IP addresses can you use?
 
 - A. IP1, IP2, and IP3
 - B. IP2 only
-- C. IP3 only
+- ✅ C. IP3 only
 - D. IP1 and IP3 only
 
 **Correct Answer:** C
@@ -9028,7 +9029,7 @@ You need to restrict network traffic between the pods.
 What should you configure on the AKS cluster?
 
 - A. the Azure network policy
-- B. the Calico network policy
+- ✅ B. the Calico network policy
 - C. pod security policies
 - D. an application security group
 
@@ -9049,7 +9050,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0048600001.jpg)
 
-**Correct Answer:** ![](images/0048700001.jpg)
+**Correct Answer:** ✅ 
+![](images/0048700001.jpg)
 
 ---
 
@@ -9063,7 +9065,7 @@ What should you configure?
 - A. Floating IP (direct server return) to Enabled
 - B. Floating IP (direct server return) to Disabled
 - C. a health probe
-- D. Session persistence to Client IP and Protocol
+- ✅ D. Session persistence to Client IP and Protocol
 
 **Correct Answer:** D
 
@@ -9091,7 +9093,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0049000001.png)
 
-**Correct Answer:** ![](images/0049000002.png)
+**Correct Answer:** ✅ 
+![](images/0049000002.png)
 
 ---
 
@@ -9106,8 +9109,8 @@ NOTE: Each correct selection is worth one point.
 - A. a frontend IP address
 - B. an inbound NAT rule
 - C. a virtual network
-- D. a backend pool
-- E. a health probe
+- ✅ D. a backend pool
+- ✅ E. a health probe
 
 **Correct Answer:** DE
 
@@ -9122,7 +9125,7 @@ You need to configure an Azure VPN gateway for a site-to-site VPN. The solution 
 Which type of public IP address SKU and assignment should you use for the gateway?
 
 - A. a basic SKU and a static IP address assignment
-- B. a standard SKU and a static IP address assignment
+- ✅ B. a standard SKU and a static IP address assignment
 - C. a basic SKU and a dynamic IP address assignment
 
 **Correct Answer:** B
