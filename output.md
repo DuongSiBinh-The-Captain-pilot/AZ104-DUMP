@@ -9142,8 +9142,11 @@ The subscription contains a storage account named contoso2024 as shown in the fo
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 ![](images/image856.png)
 
-**Correct Answer:** ![](images/image857.png)
-
+**Correct Answer:** ✅ 
+![](images/image857.png)
+VM1 is connected to VNet1/Subnet1, and its public IP is listed in the firewall rules, so it can connect. (YES)
+VM2 is connected to VNet1/Subnet2 (different subnet), but its public IP (150.120.10.10) is listed in the firewall rules, so it can still connect. (YES)
+VM3 is also connected to VNet1/Subnet1, and its public IP is listed in the firewall rules, so it can connect. (Note that third statement says "must", so, the better answer is NO)
 ---
 
 ### Question 467: Question #94 Topic 5
@@ -9161,18 +9164,13 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0049500005.jpg)
 
-**Correct Answer:** ![](images/0049600001.jpg)
-
+**Correct Answer:** ✅ 
+![](images/0049600001.jpg)
 _Explanation:_
-Box 1: Yes -
-The DNS zone uses the Public IP address of vm1.
-Box 2: Yes -
-Fabrikam.com is a Private DNS zone. The private IP address is used.
-Note: The Azure DNS private zones auto registration feature manages DNS records for virtual machines deployed in a virtual network. When you link a virtual network with a private DNS zone with this setting enabled, a DNS record gets created for each virtual machine deployed in the virtual network.
-For each virtual machine, an A record and a PTR record are created. DNS records for newly deployed virtual machines are also automatically created in the linked private DNS zone.
-Note: If you use Azure Provided DNS then appropriate DNS suffix will be automatically applied to your virtual machines. For all other options you must either use
-Fully Qualified Domain Names (FQDN) or manually apply appropriate DNS suffix to your virtual machines.
-Box 3: Yes -
+N = none of the actions in question added the VM1 record to contoso.com dns
+Y = vnet1 is linked and auto-rego is enabled, records get added automatically.
+Y = vnet1 is linked and auto-rego is enabled, records get added automatically.
+
 Reference:
 https://docs.microsoft.com/en-us/azure/dns/dns-zones-records
 https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances
@@ -9193,7 +9191,7 @@ Which SKU should you deploy?
 - A. ERGw1AZ
 - B. ERGw2
 - C. ErGw3
-- D. ErGw3AZ
+- ✅ D. ErGw3AZ
 
 **Correct Answer:** D
 
@@ -9215,16 +9213,11 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0049900004.jpg)
 
-**Correct Answer:** ![](images/0050000001.jpg)
-
+**Correct Answer:** ✅ 
+![](images/0050000001.jpg)
 _Explanation:_
-Box 1: Yes -
-The inbound security rule for NSG1 allows TCP port 1433 from 10.10.2.0/24 (or Subnet2 where VM2 and VM3 are located) to 10.10.1.0/24 (or Subnet1 where
-VM1 is located) while the inbound security rule for NSG2 blocks TCP port 1433 from 10.10.2.5 (or VM2) to 10.10.1.5 (or VM1). However, the NSG1 rule has a higher priority (or lower value) than the NSG2 rule.
-Box 2: Yes -
-No rule explicitly blocks communication from VM1. The default rules, which allow communication, are thus applied.
-Box 3: Yes -
-No rule explicitly blocks communication between VM2 and VM3 which are both on Subnet2. The default rules, which allow communication, are thus applied.
+No, Yes, Yes. The NSG2 on the NIC of VM1 blocks the request that passes through NSG1 which is attached on the subnet. There is no priority bypass between NSGs. Traffic is filtered independently between NSGs.
+
 Reference:
 https://docs.microsoft.com/en-us/azure/virtual-network/security-overview
 
@@ -9247,7 +9240,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0050200001.jpg)
 
-**Correct Answer:** ![](images/0050200002.jpg)
+**Correct Answer:** ✅ ![](images/0050200002.jpg)
 
 _Explanation:_
 IP forwarding enables the virtual machine a network interface is attached to:
@@ -9276,7 +9269,7 @@ What should you deploy?
 
 - A. an Azure Application Gateway
 - B. an Azure Active Directory (Azure AD) Application Proxy
-- C. an Azure Virtual Network Gateway
+- ✅ C. an Azure Virtual Network Gateway
 
 **Correct Answer:** C
 
@@ -9291,8 +9284,8 @@ Which two resources can you associate to IP1? Each correct answer presents a com
 NOTE: Each correct selection is worth one point.
 
 - A. VM1
-- B. LB1
-- C. NIC1
+- ✅ B. LB1
+- ✅ C. NIC1
 - D. VPN1
 - E. VNet1
 
@@ -9307,7 +9300,7 @@ You need to allow access to storage1 from selected networks and your home office
 What should you do first for storage1?
 
 - A. Add a private endpoint.
-- B. Modify the Public network access settings.
+- ✅ B. Modify the Public network access settings.
 - C. Select Internet routing.
 - D. Modify the Access Control (IAM) settings.
 
@@ -9322,7 +9315,7 @@ Which tunneling protocol should you use?
 
 - A. IKEv1
 - B. PPTP
-- C. IKEv2
+- ✅ C. IKEv2
 - D. L2TP
 
 **Correct Answer:** C
@@ -9337,7 +9330,7 @@ You configure Azure Site Recovery to replicate VM1 between the US East and West 
 You perform a test failover of VM1 and specify VNET2 as the target virtual network.
 When the test version of VM1 is created, to which subnet will the virtual machine be connected?
 
-- A. TestSubnet1
+- ✅ A. TestSubnet1
 - B. DemoSubnet1
 - C. RecoverySubnetA
 - D. RecoverySubnetB
@@ -9356,7 +9349,7 @@ What should you configure?
 - A. Protocol to UDP
 - B. Session persistence to None
 - C. Floating IP (direct server return) to Disabled
-- D. Session persistence to Client IP
+- ✅ D. Session persistence to Client IP
 
 **Correct Answer:** D
 
@@ -9374,8 +9367,17 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image847.png)
 
-**Correct Answer:** ![](images/image848.png)
+**Correct Answer:** ✅ 
+![](images/image847.png)
+Can I peer a VNet with the type Azure Government with a public one?
 
+No, you cannot peer a VNet in Azure Government with a VNet in the public Azure cloud. Peering is only supported within the same cloud environment1.
+Can I peer a VNet with the type Azure Government with Azure China?
+
+No, you cannot peer a VNet in Azure Government with a VNet in Azure China. Peering across different cloud environments is not supported2.
+Can I peer a VNet with the type Azure China with a public one?
+
+No, you cannot peer a VNet in Azure China with a VNet in the public Azure cloud. Peering is only supported within the same cloud environment3.
 ---
 
 ### Question 478: Question #105 Topic 5
@@ -9386,7 +9388,7 @@ You need to ensure that visitors are serviced by the same web server for each re
 What should you configure?
 
 - A. Floating IP (direct server return) to Disabled
-- B. Session persistence to Client IP
+- ✅ B. Session persistence to Client IP
 - C. Protocol to UDP
 - D. Idle Time-out (minutes) to 20
 
@@ -9402,7 +9404,7 @@ You need to configure NSG1 to allow inbound access to the virtual machines via B
 Which port should you configure for the inbound security rule?
 
 - A. 22
-- B. 443
+- ✅ B. 443
 - C. 389
 - D. 8080
 
@@ -9427,7 +9429,8 @@ How should you configure DC1? To answer, select the appropriate options in the a
 NOTE: Each correct selection is worth one point.
 ![](images/image610.png)
 
-**Correct Answer:** ![](images/image611.png)
+**Correct Answer:** ✅ 
+![](images/image611.png)
 
 ---
 
@@ -9440,7 +9443,7 @@ What should you configure?
 
 - A. Session persistence to None
 - B. a health probe
-- C. Session persistence to Client IP
+- ✅ C. Session persistence to Client IP
 - D. Idle Time-out (minutes) to 20
 
 **Correct Answer:** C
@@ -9456,7 +9459,7 @@ To which virtual networks can you deploy AF1?
 
 - A. VNET1, VNET2, VNET3, and VNET4
 - B. VNET1 and VNET2 only
-- C. VNET1 only
+- ✅ C. VNET1 only
 - D. VNET1, VNET2, and VNET4 only
 - E. VNET1 and VNET4 only
 
@@ -9473,7 +9476,7 @@ You need to monitor connectivity between the virtual machines and the on-premise
 What is the minimum number of connection monitors you should deploy?
 
 - A. 1
-- B. 2
+- ✅ B. 2
 - C. 3
 - D. 4
 
@@ -9491,7 +9494,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image615.png)
 
-**Correct Answer:** ![](images/image616.png)
+**Correct Answer:** ✅ 
+![](images/image616.png)
 
 ---
 
@@ -9503,7 +9507,7 @@ What should you configure?
 
 - A. private endpoints
 - B. Azure Firewall rules
-- C. Routing preference
+- ✅ C. Routing preference
 - D. load balancing
 
 **Correct Answer:** C
@@ -9516,7 +9520,7 @@ You have two Azure virtual machines named VM1 and VM2 that run Windows Server. T
 You need to prevent VM1 from accessing VM2 on port 3389.
 What should you do?
 
-- A. Create a network security group (NSG) that has an outbound security rule to deny destination port 3389 and apply the NSG to the network interface of VM1.
+- ✅ A. Create a network security group (NSG) that has an outbound security rule to deny destination port 3389 and apply the NSG to the network interface of VM1.
 - B. Configure Azure Bastion in VNet1.
 - C. Create a network security group (NSG) that has an outbound security rule to deny source port 3389 and apply the NSG to Subnet1.
 - D. Create a network security group (NSG) that has an inbound security rule to deny source port 3389 and apply the NSG to Subnet1.
@@ -9534,7 +9538,7 @@ What should you do first?
 
 - A. Configure the Hybrid Connection Manager.
 - B. Upgrade ASP1 to the Premium SKU.
-- C. Create a route table.
+- ✅ C. Create a route table.
 - D. Create an Azure Network Watcher.
 
 **Correct Answer:** C
@@ -9549,7 +9553,7 @@ All the resources connect to a virtual network named VNet1.
 You plan to deploy an Azure Bastion host named Bastion1 to VNet1.
 Which resources can be protected by using Bastion1?
 
-- A. VM1 only
+- ✅ A. VM1 only
 - B. contoso.com only
 - C. App1 and contoso.com only
 - D. VM1 and contoso.com only
@@ -9568,7 +9572,7 @@ What should you configure?
 
 - A. Session persistence to None
 - B. a health probe
-- C. Session persistence to Client IP and protocol
+- ✅ C. Session persistence to Client IP and protocol
 - D. Idle Time-out (minutes) to 20
 
 **Correct Answer:** C
@@ -9584,7 +9588,7 @@ What should you configure?
 
 - A. a health probe
 - B. Floating IP (direct server return) to Enabled
-- C. Session persistence to Client IP and protocol
+- ✅ C. Session persistence to Client IP and protocol
 - D. Protocol to UDP
 
 **Correct Answer:** C
@@ -9601,7 +9605,7 @@ What should you do first?
 - A. Resize the subnet of Bastion1
 - B. Configure host scaling.
 - C. Create a network security group (NSG)
-- D. Upgrade Bastion1 to the Standard SKU
+-✅ D. Upgrade Bastion1 to the Standard SKU
 
 **Correct Answer:** D
 
@@ -9614,7 +9618,7 @@ You have an Azure load balancer named LB1 that provides load balancing services 
 You need to ensure that visitors are serviced by the same web server for each request.
 What should you configure?
 
-- A. Session persistence to Client IP and protocol
+- ✅ A. Session persistence to Client IP and protocol
 - B. Protocol to UDP
 - C. Session persistence to None
 - D. Floating IP (direct server return) to Disabled
@@ -9634,7 +9638,8 @@ From Device1, you need to establish a Remote Desktop connection to VM1.
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 ![](images/image664.png)
 
-**Correct Answer:** ![](images/image665.png)
+**Correct Answer:** ✅ 
+![](images/image665.png)
 
 ---
 
@@ -9646,7 +9651,7 @@ You need to ensure that visitors are serviced by the same web server for each re
 What should you configure?
 
 - A. Floating IP (direct server return) to Enabled
-- B. Session persistence to Client IP
+- ✅ B. Session persistence to Client IP
 - C. Protocol to UDP
 - D. Idle Time-out (minutes) to 20
 
@@ -9661,7 +9666,7 @@ You have an Azure subscription that has the public IP addresses shown in the fol
 You plan to deploy an Azure Bastion Basic SKU host named Bastion1.
 Which IP addresses can you use?
 
-- A. IP1 only
+- ✅ A. IP1 only
 - B. IP1 and IP2 only
 - C. IP3, IP4, and IP5 only
 - D. IP1, IP2, IP4, and IP5 only
@@ -9681,7 +9686,7 @@ What should you configure?
 - A. Floating IP (direct server return) to Disabled
 - B. Floating IP (direct server return) to Enabled
 - C. a health probe
-- D. Session persistence to Client IP
+- ✅ D. Session persistence to Client IP
 
 **Correct Answer:** D
 
@@ -9697,7 +9702,7 @@ What should you configure?
 - A. Floating IP (direct server return) to Enabled
 - B. Idle Time-out (minutes) to 20
 - C. a health probe
-- D. Session persistence to Client IP
+- ✅ D. Session persistence to Client IP
 
 **Correct Answer:** D
 
@@ -9715,7 +9720,7 @@ Which resources should you move to Sub2?
 - A. VM1, Disk1, and NetInt1 only
 - B. VM1, Disk1, and VNet1 only
 - C. VM1, Disk1, and storage1 only
-- D. VM1, Disk1, NetInt1, and VNet1
+- ✅ D. VM1, Disk1, NetInt1, and VNet1
 
 **Correct Answer:** D
 
@@ -9728,7 +9733,7 @@ You have an Azure load balancer named LB1 that provides load balancing services 
 You need to ensure that visitors are serviced by the same web server for each request.
 What should you configure?
 
-- A. Session persistence to Client IP and protocol
+- ✅ A. Session persistence to Client IP and protocol
 - B. Idle Time-out (minutes) to 20
 - C. Session persistence to None
 - D. Floating IP (direct server return) to Enabled
@@ -9747,7 +9752,7 @@ What should you configure?
 - A. Floating IP (direct server return) to Disabled
 - B. Idle Time-out (minutes) to 20
 - C. a health probe
-- D. Session persistence to Client IP
+- ✅ D. Session persistence to Client IP
 
 **Correct Answer:** D
 
@@ -9760,7 +9765,7 @@ You have an Azure load balancer named LB1 that provides load balancing services 
 You need to ensure that visitors are serviced by the same web server for each request.
 What should you configure?
 
-- A. Session persistence to Client IP
+- ✅ A. Session persistence to Client IP
 - B. Idle Time-out (minutes) to 20
 - C. Session persistence to None
 - D. Protocol to UDP
@@ -9779,7 +9784,7 @@ Which next hop type should you select?
 - A. Internet
 - B. Virtual network gateway
 - C. Virtual network
-- D. Virtual appliance
+- ✅ D. Virtual appliance
 
 **Correct Answer:** D
 
@@ -9796,7 +9801,7 @@ Which virtual networks can you peer with VNet1?
 - B. VNet2 and VNet3 only
 - C. VNet2 and VNet4 only
 - D. VNet2, VNet3, and VNet4 only
-- E. VNet2, VNet3, VNet4, and VNet5
+- ✅ E. VNet2, VNet3, VNet4, and VNet5
 
 **Correct Answer:** E
 
@@ -9810,7 +9815,7 @@ Which resource should you create first?
 
 - A. an administrative unit
 - B. a managed identity
-- C. a resource guard
+- ✅ C. a resource guard
 - D. a custom Azure role
 
 **Correct Answer:** C
@@ -9830,11 +9835,11 @@ You need to ensure that connections to App1 can be established successfully from
 Solution: You create an inbound security rule that allows any traffic from the AzureLoadBalancer source and has a priority of 150.
 Does this meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
-
+Presuming it's the health probe on 443 which is at fault and is required to ensure LB is processing as intended, the given answer is correct.
 ---
 
 ### Question 506: Question #133 Topic 5
@@ -9845,7 +9850,7 @@ You create a route table named RT1 in the East US Azure region.
 To which resources can you associate RT1?
 
 - A. VNet1 only
-- B. Subnet1 only
+- ✅ B. Subnet1 only
 - C. VNet1 and NIC1 only
 - D. Subnet1 and NIC1 only
 - E. VNet1, Subnet1, and NIC1
@@ -9863,7 +9868,7 @@ You need to enable Desired State Configuration for VM1.
 What should you do first?
 
 - A. Connect to VM1.
-- B. Start VM1.
+- ✅ B. Start VM1.
 - C. Capture a snapshot of VM1.
 - D. Configure a DNS name for VM1.
 
@@ -9888,7 +9893,8 @@ To which virtual networks can you connect con-env1, and which subnet mask should
 NOTE: Each correct selection is worth one point.
 ![](images/image730.png)
 
-**Correct Answer:** ![](images/image731.png)
+**Correct Answer:** ✅ 
+![](images/image731.png)
 
 ---
 
@@ -9900,7 +9906,7 @@ All the virtual networks are peered. Each virtual network contains nine virtual 
 You need to configure secure RDP connections to the virtual machines by using Azure Bastion.
 What is the minimum number of Bastion hosts required?
 
-- A. 1
+- ✅ A. 1
 - B. 3
 - C. 9
 - D. 10
@@ -9924,7 +9930,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image736.png)
 
-**Correct Answer:** ![](images/image737.png)
+**Correct Answer:** ✅ 
+![](images/image737.png)
 
 ---
 
@@ -9943,8 +9950,18 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image741.png)
 
-**Correct Answer:** ![](images/image742.png)
+**Correct Answer:** ✅ 
+![](images/image742.png)
+Answer is correct
+Box 1: Y
+Virtual networks must be in the same region as the service endpoint policy
+https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations
 
+Box 2: N
+VNet2 is in SEA Region, so it can only connect to the stoacc in SEA Region through Service Endpoint, which is storage3
+
+Box 3: Y
+VNet3 is in the South Central US region, and so is the storage2
 ---
 
 ### Question 512: Question #139 Topic 5
@@ -9957,7 +9974,7 @@ What is the maximum number of virtual machines that can connect to Subnet1?
 
 - A. 24
 - B. 25
-- C. 123
+- ✅ C. 123
 - D. 128
 - E. 251
 
@@ -9973,7 +9990,7 @@ You need to be able to configure DNS name label scope reuse for container1.
 What should you configure for container1?
 
 - A. the private networking type
-- B. the public networking type
+- ✅ B. the public networking type
 - C. a new subnet on VNet1
 - D. a confidential SKU
 
@@ -9996,7 +10013,8 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image746.png)
 
-**Correct Answer:** ![](images/image747.png)
+**Correct Answer:** ✅ 
+![](images/image747.png)
 
 ---
 
@@ -10031,7 +10049,7 @@ Which setting should you change?
 - A. Memory (GiB)
 - B. Networking type
 - C. Number of CPU cores
-- D. OS type
+- ✅ D. OS type
 - E. SKU
 
 **Correct Answer:** D
@@ -10049,7 +10067,7 @@ You deploy an Azure Bastion host named Bastion1 to VNet1.
 To which virtual machines can you connect through Bastion1?
 
 - A. VM1 only
-- B. VM1 and VM2 only
+- ✅ B. VM1 and VM2 only
 - C. VM1 and VM3 only
 - D. VM1, VM2, and VM3
 
@@ -10065,7 +10083,7 @@ Which virtual networks can you peer with VNet1?
 
 - A. VNet2, VNet3, and VNet4
 - B. VNet2 only
-- C. VNet3 and VNet4 only
+- ✅ C. VNet3 and VNet4 only
 - D. VNet2 and VNet3 only
 
 **Correct Answer:** C
@@ -10082,7 +10100,7 @@ What should you do next?
 - A. Configure an extended network.
 - B. Create a recovery plan.
 - C. Deploy an Open Virtualization Application (OVA) template to vSphere.
-- D. Configure a virtual network.
+- ✅ D. Configure a virtual network.
 
 **Correct Answer:** D
 
@@ -10104,7 +10122,8 @@ How should you configure Azure Bastion? To answer, select the options in the ans
 NOTE: Each correct answer is worth one point.
 ![](images/image792.png)
 
-**Correct Answer:** ![](images/image793.png)
+**Correct Answer:** ✅ 
+![](images/image793.png)
 
 ---
 
@@ -10116,7 +10135,7 @@ You need to ensure that all the traffic between VNet1 and VNet2 traverses the Mi
 What should you configure?
 
 - A. a private endpoint
-- B. peering
+- ✅ B. peering
 - C. Express Route
 - D. a route table
 
@@ -10132,7 +10151,7 @@ You need to configure access for users on the on-premises network to connect to 
 Which type of connectivity should you use?
 
 - A. Azure Firewall with a private IP address
-- B. service chaining and user-defined routes (UDRs)
+- ✅ B. service chaining and user-defined routes (UDRs)
 - C. Azure Application Gateway
 - D. ExpressRoute circuits to VNet2
 
@@ -10148,7 +10167,7 @@ You need to ensure that the traffic from VNet1 to VNet2 is inspected by using Ne
 What should you use?
 
 - A. a local network gateway
-- B. a route table that has custom routes
+- ✅ B. a route table that has custom routes
 - C. a service endpoint
 - D. IP address reservations
 
@@ -10164,7 +10183,7 @@ You plan to schedule backups to occur every night at 23:00.
 Which virtual machines can you back up by using Azure Backup?
 
 - A. VM1 and VM3 only
-- B. VM1, VM2, VM3 and VM4
+- ✅ B. VM1, VM2, VM3 and VM4
 - C. VM1 and VM2 only
 - D. VM1 only
 
@@ -10179,7 +10198,7 @@ You plan to deploy an Azure Monitor alert rule that will trigger an alert when C
 You need to ensure that the alert rule sends an email message to two users named User1 and User2.
 What should you create for Azure Monitor?
 
-- A. an action group
+- ✅ A. an action group
 - B. a mail-enabled security group
 - C. a distribution group
 - D. a Microsoft 365 group
@@ -10196,7 +10215,7 @@ You have a Recovery Services vault that protects VM1 and VM2.
 You need to protect VM3 and VM4 by using Recovery Services.
 What should you do first?
 
-- A. Create a new Recovery Services vault
+- ✅ A. Create a new Recovery Services vault
 - B. Create a storage account
 - C. Configure the extensions for VM3 and VM4
 - D. Create a new backup policy
@@ -10218,8 +10237,13 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0053300001.jpg)
 
-**Correct Answer:** ![](images/0053400001.jpg)
+**Correct Answer:** ✅ 
+![](images/0053400001.jpg)
+Box 1: 4
+You need 1 alert rule per 1 signal (1xIngress, 1xEgress, 1xDelete storage account, 1xRestore blob ranges).
 
+Box 2: 3
+You need 3 Action Groups (1xUser1 and User3, 1xUser1 only, 1xUser1 User2 and User3). Check ‘Users to notify’ column.
 ---
 
 ### Question 528: Question #5 Topic 6
@@ -10235,7 +10259,7 @@ Who should you identify?
 - A. User1 and Principal1 only
 - B. User1, User2, Principal1, and Principal2
 - C. User1 only
-- D. User1 and User2 only
+- ✅ D. User1 and User2 only
 
 **Correct Answer:** D
 
@@ -10254,7 +10278,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0053700001.jpg)
 
-**Correct Answer:** ![](images/0053800001.jpg)
+**Correct Answer:** ✅ 
+![](images/0053800001.jpg)
 
 _Explanation:_
 Box 1: 6 -
@@ -10277,8 +10302,11 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0054000001.png)
 
-**Correct Answer:** ![](images/0054100001.png)
-
+**Correct Answer:** ✅ 
+![](images/0054100001.png)
+There are two ways to enable application monitoring for OnPrem, VM or App Services Web APP:
+- Auto-instrumentation by using Application Insight Agent
+Manual instrumentation by installing the Application Insight SDK through code
 _Explanation:_
 Reference:
 https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps
@@ -10301,7 +10329,7 @@ Which change should you perform again?
 - A. Modify the size of VM1.
 - B. Reset the password for the built-in administrator account.
 - C. Add a data disk.
-- D. Copy Budget.xls to Data.
+- ✅ D. Copy Budget.xls to Data.
 
 **Correct Answer:** D
 
@@ -10321,15 +10349,19 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0054500001.jpg)
 
-**Correct Answer:** ![](images/0054500002.jpg)
-
+**Correct Answer:** ✅ 
+![](images/0054500002.jpg)
 _Explanation:_
-Box 1: No -
-Two methods are required.
-Box 2: No -
+Box 1: No
+Two methods are required (Mobile phone and Security questions).
+
+Box 2: No
 Self-service password reset is only enabled for Group2, and User1 is not a member of Group2.
-Box 3: Yes -
-As a User Administrator, User3 can add security questions to the reset process.
+
+Box 3: No
+To be able to add Security questions to the process, you need to be a Global Administrator. User3 is User Administrator, so User3 cannot add security questions to the reset process. User Administrator doesn’t have MFA permissions.
+
+
 Reference:
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/quickstart-sspr https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-passwords-faq
 
@@ -10346,7 +10378,7 @@ You need to ensure that User1 can join the device to Azure AD.
 What should you do?
 
 - A. Assign the User administrator role to User1.
-- B. From the Device settings blade, modify the Maximum number of devices per user setting.
+- ✅ B. From the Device settings blade, modify the Maximum number of devices per user setting.
 - C. Create a point-to-site VPN from the home network of User1 to Azure.
 - D. From the Device settings blade, modify the Users may join devices to Azure AD setting.
 
@@ -10365,8 +10397,21 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0054800001.jpg)
 
-**Correct Answer:** ![](images/0054800002.jpg)
+**Correct Answer:** ✅ 
+![](images/0054800002.jpg)
+On January 15th you will have 9 backups as 0 day retention is defined as indefinite.
 
+[How many days to keep a backup before automatically deleting it. Set to 0 for indefinite retention.]
+
+https://docs.microsoft.com/en-us/cli/azure/webapp/config/backup?view=azure-cli-latest
+
+The DevOps / Web apps backup in the questions only includes the production slot. One cannot restore a test slot from a production slot backup.
+
+[If a slot is not specified, the API will create a backup for the production slot.]
+
+https://docs.microsoft.com/en-us/rest/api/appservice/web-apps/backup-slot
+
+January 6th backup will still be within the 30 days retention as of January 15th.
 ---
 
 ### Question 535: Question #12 Topic 6
@@ -10389,16 +10434,15 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0055000001.png)
 
-**Correct Answer:** ![](images/0055000002.png)
-
+**Correct Answer:** ✅ 
+![](images/0055000002.png)
 _Explanation:_
-Box 1: No -
-Administrator accounts are special accounts with elevated permissions. To secure them, the following restrictions apply to changing passwords of administrators:
-On-premises enterprise administrators or domain administrators cannot reset their password through Self-service password reset (SSPR). They can only change their password in their on-premises environment. Thus, we recommend not syncing on-prem AD admin accounts to Azure AD. An administrator cannot use secret
-Questions & Answers as a method to reset password.
-Box 2: Yes -
-Self-service password reset (SSPR) is an Azure Active Directory feature that enables employees to reset their passwords without needing to contact IT staff.
-Box 3: Yes -
+By default, administrator accounts are enabled for self-service password reset, and a strong default two-gate password reset policy is enforced. This policy may be different from the one you have defined for your users, and this policy can't be changed. You should always test password reset functionality as a user without any Azure administrator roles assigned.
+
+With a two-gate policy, administrators don't have the ability to use security questions.
+
+The two-gate policy requires two pieces of authentication data, such as an email address, authenticator app, or a phone number.
+
 Reference:
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment
 
@@ -10415,7 +10459,7 @@ You need to create new user accounts in external.contoso.onmicrosoft.com.
 Solution: You instruct User1 to create the user accounts.
 Does that meet the goal?
 
-- A. Yes
+- ✅ A. Yes
 - B. No
 
 **Correct Answer:** A
@@ -10430,7 +10474,7 @@ What should you use?
 
 - A. Service Map
 - B. Connection troubleshoot
-- C. Network Performance Monitor
+- ✅ C. Network Performance Monitor
 - D. Effective routes
 
 **Correct Answer:** C
@@ -10448,7 +10492,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0055400001.png)
 
-**Correct Answer:** ![](images/0055500001.png)
+**Correct Answer:** ✅ 
+![](images/0055500001.png)
 
 _Explanation:_
 Box 1: four times -
@@ -10474,7 +10519,8 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Select and Place:
 ![](images/0055700001.png)
 
-**Correct Answer:** ![](images/0055800001.png)
+**Correct Answer:** ✅ 
+![](images/0055800001.png)
 
 _Explanation:_
 Step 1: From the Azure portal, click File Recovery from the vault
@@ -10509,7 +10555,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0056200001.jpg)
 
-**Correct Answer:** ![](images/0056300001.jpg)
+**Correct Answer:** ✅ 
+![](images/0056300001.jpg)
 
 _Explanation:_
 Box 1: A Recovery Services vault
@@ -10534,7 +10581,7 @@ Which target resource should you monitor in the alert rule?
 - A. virtual machine extension
 - B. virtual machine
 - C. metric alert
-- D. Azure Log Analytics workspace
+- ✅ D. Azure Log Analytics workspace
 
 **Correct Answer:** D
 
@@ -10550,7 +10597,7 @@ What should you do?
 - A. From Azure Cost Management, view Cost Analysis
 - B. From Azure Advisor, modify the Advisor configuration
 - C. From Microsoft Azure Storage Explorer, view the Account Management properties
-- D. From Azure Cost Management, view Advisor Recommendations
+- ✅ D. From Azure Cost Management, view Advisor Recommendations
 
 **Correct Answer:** D
 
@@ -10563,7 +10610,7 @@ Users report that they often experience HTTP 500 errors when they connect to web
 You need to provide the developers of webapp1 with real-time access to the connection errors. The solution must provide all the connection error details.
 What should you do first?
 
-- A. From webapp1, enable Web server logging
+- ✅ A. From webapp1, enable Web server logging
 - B. From Azure Monitor, create a workbook
 - C. From Azure Monitor, create a Service Health alert
 - D. From webapp1, turn on Application Logging
@@ -10579,7 +10626,7 @@ You need to monitor the availability of App1 by using a multi-step web test.
 What should you use in Azure Monitor?
 
 - A. Azure Service Health
-- B. Azure Application Insights
+- ✅ B. Azure Application Insights
 - C. the Diagnostic settings
 - D. metrics
 
@@ -10598,7 +10645,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0056700001.jpg)
 
-**Correct Answer:** ![](images/0056800001.jpg)
+**Correct Answer:** ✅ 
+![](images/0056800001.jpg)
 
 _Explanation:_
 Box 1: AzureActivity -
@@ -10632,7 +10680,7 @@ What should you do first?
 - A. Deallocate VM1.
 - B. Restore VM1 by using the Replace existing restore configuration option.
 - C. Delete VM1.
-- D. Restore VM1 by using the Create new restore configuration option.
+- ✅ D. Restore VM1 by using the Create new restore configuration option.
 
 **Correct Answer:** D
 
@@ -10649,7 +10697,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0057100001.jpg)
 
-**Correct Answer:** ![](images/0057200001.jpg)
+**Correct Answer:** ✅ 
+![](images/0057200001.jpg)
 
 _Explanation:_
 Box 1: VM1 only -
@@ -10674,8 +10723,12 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0057400001.png)
 
-**Correct Answer:** ![](images/0057500001.jpg)
-
+**Correct Answer:** ✅ 
+![](images/0057500001.jpg)
+User 1 - Owner of the subscription. (He can manage any resources in the subscription.)
+User 2 - Owner of RG2(He can manage any resources in the RG2.)
+User 3 - Owner of a single VM that is VM1.(he can manage VM1 only)
+User 4 - Contributor of RG1.(He can manage everything in RG1, even he can delete VMs in RG1. But cannot change RABC)
 ---
 
 ### Question 549: Question #26 Topic 6
@@ -10688,8 +10741,11 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0057700001.png)
 
-**Correct Answer:** ![](images/0057700002.png)
-
+**Correct Answer:** ✅ 
+![](images/0057700002.png)
+N - ms.auth/*/write is NOT allowed.
+Y - ms.comp/vm/* is allowed.
+Y - ms.net/netint/* is allowed.
 ---
 
 ### Question 550: Question #27 Topic 6
@@ -10704,8 +10760,11 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0057900001.png)
 
-**Correct Answer:** ![](images/0057900002.png)
-
+**Correct Answer:** ✅ 
+![](images/0057900002.png)
+Yes: There are no outbound restrictions preventing this traffic.
+Yes: Since VM2 is in subnet2, the rule that denies access from the Internet does not apply to internal traffic between subnets. The default allow rules for Virtual Network should permit traffic between VMs in different subnets within the same VNET.
+No: NSG1 is associated with subnet1 in VNET1, so the security rules apply only to the VMs in subnet1, not to all VMs in VNET1.
 ---
 
 ### Question 551: Question #28 Topic 6
@@ -10719,7 +10778,7 @@ What should you do?
 
 - A. Select Use the remote virtual network's gateway or Route Server on VNet1 to VNet2 peering.
 - B. Select Use the remote virtual network s gateway or Route Server on VNet2 to VNet1 peering.
-- C. Download and re-install the VPN client configuration package on Client1.
+- ✅ C. Download and re-install the VPN client configuration package on Client1.
 - D. Enable BGP on VPNGW1.
 
 **Correct Answer:** C
@@ -10741,8 +10800,21 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0058200001.png)
 
-**Correct Answer:** ![](images/0058200002.png)
+**Correct Answer:** ✅ 
+![](images/0058200002.png)
+1. User1 can sign in to VM1
+No
+User1 is assigned as Virtual Machine Contributor in MG1.
+And Virtual Machine Contributor can't log in to VM as a regular user.
 
+2. User2 can manage disks and disk snapshots of VM1
+No
+Since User2 only has Virtual Machine User in Sub1, so he can log in to VM1 but can't manage disks or snapshots
+
+3. User2 can manage disks and disk snapshots of VM3
+No
+Virtual Machine Contributor only has permission to manage disks, but not disk snapshots (Disk Snapshot Contributor permission)
+   upvoted 110 times
 ---
 
 ### Question 553: Question #30 Topic 6
@@ -10754,7 +10826,7 @@ What should you use?
 - A. Azure Application Insights Profiler
 - B. access reviews
 - C. Activity log filters
-- D. a Log Analytics workspace
+- ✅ D. a Log Analytics workspace
 
 **Correct Answer:** D
 
@@ -10770,7 +10842,8 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Select and Place:
 ![](images/0058400001.jpg)
 
-**Correct Answer:** ![](images/0058400002.jpg)
+**Correct Answer:** ✅ 
+![](images/0058400002.jpg)
 
 ---
 
@@ -10782,7 +10855,7 @@ To what should you set Destination in the rule?
 
 - A. Application security group
 - B. IP Addresses
-- C. Service Tag
+- ✅ C. Service Tag
 - D. Any
 
 **Correct Answer:** C
@@ -10795,7 +10868,7 @@ You have an Azure subscription named Subscription1 that contains an Azure Log An
 You need to view the error events from a table named Event.
 Which query should you run in Workspace1?
 
-- A. search in (Event) "error"
+- ✅ A. search in (Event) "error"
 - B. Event | where EventType is "error"
 - C. select * from Event where EventType == "error"
 - D. Get-Event Event | where {$_.EventType == "error"}
@@ -10810,7 +10883,7 @@ You have an Azure App Service web app named App1.
 You need to collect performance traces for App1.
 What should you use?
 
-- A. Azure Application Insights Profiler
+- ✅ A. Azure Application Insights Profiler
 - B. the Activity log
 - C. the Deployment center
 - D. the Diagnose and solve problems settings
@@ -10828,7 +10901,7 @@ You need to back up App1. The solution must minimize costs.
 Which storage account should you use as the target for the backup?
 
 - A. storage1
-- B. storage2
+- ✅ B. storage2
 - C. storage3
 - D. storage4
 
@@ -10852,7 +10925,8 @@ Which alert rules are triggered by each user? To answer, select the appropriate 
 NOTE: Each correct selection is worth one point.
 ![](images/image621.png)
 
-**Correct Answer:** ![](images/image622.png)
+**Correct Answer:** ✅ 
+![](images/image622.png)
 
 ---
 
@@ -10863,9 +10937,9 @@ You need to use Traffic Analytics in Azure Network Watcher to monitor virtual ma
 Which two resources should you create? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
 
-- A. a Log Analytics workspace
+- ✅ A. a Log Analytics workspace
 - B. an Azure Monitor workbook
-- C. a storage account
+- ✅ C. a storage account
 - D. a Microsoft Sentinel workspace
 - E. a Data Collection Rule (DCR) in Azure Monitor
 
@@ -10883,7 +10957,7 @@ You need to configure access for VNET1. The solution must meet the following req
 What is the minimum number of service endpoints you should add to VNET1?
 
 - A. 1
-- B. 2
+- ✅ B. 2
 - C. 3
 - D. 5
 
@@ -10897,7 +10971,7 @@ You need to configure an Azure web app named contoso.azurewebsites.net to host w
 What should you do first?
 
 - A. Create A records named www.contoso.com and asuid.contoso.com.
-- B. Create a TXT record named asuid that contains the domain verification ID.
+- ✅ B. Create a TXT record named asuid that contains the domain verification ID.
 - C. Create a CNAME record named asuid that contains the domain verification ID.
 - D. Create a TXT record named www.contoso.com that has a value of contoso.azurewebsites.net.
 
@@ -10914,7 +10988,7 @@ What should you do first?
 - A. Deploy Connection Monitor.
 - B. Configure data collection endpoints.
 - C. Configure a private link.
-- D. Configure NSG flow logs.
+- ✅ D. Configure NSG flow logs.
 
 **Correct Answer:** D
 
@@ -10943,8 +11017,11 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image625.png)
 
-**Correct Answer:** ![](images/image626.png)
-
+**Correct Answer:** ✅ 
+![](images/image626.png)
+Y - "alert is listed" does not mean a notification in my understanding therefore yes
+N - The date is within suppression rule boundaries therefore email will be suppressed
+Y - The date is outside suppression rule boundaries
 ---
 
 ### Question 565: Question #42 Topic 6
@@ -10954,7 +11031,7 @@ You need to ensure that when blob data is added to storage1, a secondary copy is
 What should you configure?
 
 - A. operational backup
-- B. object replication
+- ✅ B. object replication
 - C. geo-redundant storage (GRS)
 - D. a lifecycle management rule
 
@@ -10971,7 +11048,7 @@ You need to collect performance data and events from the virtual machines. The s
 •All security events must be captured.
 What should you install and configure on each virtual machine?
 
-- A. the Azure Monitor agent
+- ✅ A. the Azure Monitor agent
 - B. the Windows Azure diagnostics extension (WAD)
 - C. the Windows VM agent
 
@@ -10987,7 +11064,7 @@ What should you create for the alert rule?
 
 - A. an application security group
 - B. a security group that has dynamic device membership
-- C. an action group
+- ✅ C. an action group
 - D. an application group
 
 **Correct Answer:** C
@@ -11001,7 +11078,7 @@ VNet1 uses two ExpressRoute circuits that connect to two separate on-premises da
 You need to create a dashboard to display detailed metrics and a visual representation of the network topology.
 What should you use?
 
-- A. Azure Monitor Network Insights
+- ✅ A. Azure Monitor Network Insights
 - B. a Data Collection Rule (DCR)
 - C. Azure Virtual Network Watcher
 - D. Log Analytics
@@ -11020,9 +11097,9 @@ Which two options can you use to diagnose the issue? Each correct answer present
 NOTE: Each correct selection is worth one point.
 
 - A. Azure Virtual Network Manager
-- B. IP flow verify
+- ✅ B. IP flow verify
 - C. Azure Monitor Network Insights
-- D. Connection troubleshoot
+- ✅ D. Connection troubleshoot
 - E. elective security rules
 
 **Correct Answer:** BD
@@ -11035,7 +11112,7 @@ You have an Azure subscription.
 You need to receive an email alert when a resource lock is removed from any resource in the subscription.
 What should you use to create an activity log alert in Azure Monitor?
 
-- A. a resource, a condition, and an action group
+- ✅ A. a resource, a condition, and an action group
 - B. a resource, a condition, and a Microsoft 365 group
 - C. a Log Analytics workspace, a resource, and an action group
 - D. a data collection endpoint, an application security group, and a resource group
@@ -11054,8 +11131,12 @@ Use the drop-down menus to select the answer choice that completes each statemen
 NOTE: Each correct selection is worth one point.
 ![](images/image681.png)
 
-**Correct Answer:** ![](images/image682.png)
+**Correct Answer:** ✅ 
+![](images/image682.png)
+Box1: can be changed to New or Acknowledged
+Explanation: "Changing the user response doesnt affect the alert condition" is what the portal says while changing the response of an alert whose user response is closed
 
+Box2: can be changed to Acknowledged or Closed
 ---
 
 ### Question 572: Question #49 Topic 6
@@ -11068,8 +11149,14 @@ Use the drop-down menus to select the answer choice that completes each statemen
 NOTE: Each correct selection is worth one point.
 ![](images/image753.png)
 
-**Correct Answer:** ![](images/image754.png)
+**Correct Answer:** ✅ 
+![](images/image754.png)
+Box 1: 10 years
+The yearly backup point occurs to 1 March and its retention period is 10 years.
 
+Box 2: 36 months
+The monthly backup point occurs on the 1
+of every month and its retention period is 36 months.
 ---
 
 ### Question 573: Question #50 Topic 6
@@ -11086,8 +11173,17 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image758.png)
 
-**Correct Answer:** ![](images/image759.png)
+**Correct Answer:** ✅ 
+![](images/image759.png)
+VM1 can be backed up by using Policy1.
 
+Yes, because VM1 is a Windows Server, and Policy1 is in the Recovery Services Vault (Recovery1). This is compatible for backing up VM1.
+VM2 can be backed up by using Policy3.
+
+No, because Policy3 is labeled as "Not applicable," and VM2 requires a proper policy for backup.
+VM2 can be backed up by using Policy2.
+
+Yes, because Policy2 is enhanced, and VM2 (Linux with Trusted Launch) can be backed up with an enhanced policy.
 ---
 
 ### Question 574: Question #51 Topic 6
@@ -11099,7 +11195,7 @@ What should you create first?
 
 - A. a data collection rule (DCR)
 - B. a Log Analytics workspace
-- C. an Azure Monitor Private Link Scope (AMPLS)
+- ✅ C. an Azure Monitor Private Link Scope (AMPLS)
 - D. a private endpoint
 
 **Correct Answer:** C
@@ -11118,8 +11214,13 @@ To which vault can you back up cont1 and share1? To answer, select the appropria
 NOTE: Each correct answer is worth one point.
 ![](images/image762.png)
 
-**Correct Answer:** ![](images/image763.png)
+**Correct Answer:** ✅ 
+![](images/image763.png)
+Backup1 (blob containers) are backed up to Azure Backup vaults
+https://learn.microsoft.com/en-us/azure/backup/blob-backup-configure-manage?tabs=operational-backup
 
+Recovery1 (Azure Files) are backed up to Azure Recovery Services vaults
+https://learn.microsoft.com/en-us/azure/backup/backup-azure-files?tabs=recovery-services-vault
 ---
 
 ### Question 576: Question #53 Topic 6
@@ -11131,7 +11232,7 @@ Which metric should you use?
 - A. Out-of-Order Events
 - B. Output Events
 - C. Late Input Events
-- D. Backlogged Input Events
+- ✅ D. Backlogged Input Events
 
 **Correct Answer:** D
 
@@ -11143,7 +11244,7 @@ You have an Azure subscription that contains an Azure SQL database named DB1.
 You plan to use Azure Monitor to monitor the performance of DB1. You must be able to run queries to analyze log data.
 Which destination should you configure in the Diagnostic settings of DB1?
 
-- A. Send to a Log Analytics workspace.
+- ✅ A. Send to a Log Analytics workspace.
 - B. Archive to a storage account.
 - C. Stream to an Azure event hub.
 
@@ -11160,7 +11261,7 @@ You only need to collect system events that have an ID of 1001.
 Which type of query should you use for the data source in Rule1?
 
 - A. SQL
-- B. XPath
+- ✅ B. XPath
 - C. KQL
 
 **Correct Answer:** B
@@ -11177,7 +11278,7 @@ What should you install on DC1?
 - A. the Azure Connected Machine agent for Azure Arc-enabled servers
 - B. the Azure Network Watcher Agent virtual machine extension
 - C. the Log Analytics agent
-- D. an Azure Monitor agent extension
+- ✅ D. an Azure Monitor agent extension
 
 **Correct Answer:** D
 
@@ -11194,7 +11295,7 @@ You need to monitor VM1 traffic by using Traffic Analytics.
 Which settings should you configure?
 
 - A. Diagnostic settings for VM1
-- B. NSG flow logs for NSG1
+- ✅ B. NSG flow logs for NSG1
 - C. Diagnostic settings for NSG1
 - D. Insights for VM1
 
@@ -11210,7 +11311,7 @@ What should you configure first?
 
 - A. a data collection endpoint
 - B. an Azure Monitor Private Link Scope (AMPLS)
-- C. Diagnostic settings
+- ✅ C. Diagnostic settings
 - D. VM insights
 - E. a private endpoint
 
@@ -11233,8 +11334,17 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 ![](images/image797.png)
 
-**Correct Answer:** ![](images/image798.png)
-
+**Correct Answer:** ✅ 
+![](images/image798.png)
+Box 1: No
+The service endpoint policy only covers storage account contoso101, not contoso102 (in subnet2). and it has policy
+Box 2: Yes ,
+VM2 can access contoso 101
+VM2 is connected to VNet1/Subnet2.
+The service endpoint for Microsoft.Storage is configured on VNet1/Subnet2.
+VM2 can directly access contoso101 using the service endpoint, because of same Vnet
+Box 3: Yes
+There's a service endpoint for Azure AD for subnet2, which VM2 can use, therefore a private IP address is sufficient to reach the service.
 ---
 
 ### Question 583: Question #60 Topic 6
@@ -11248,7 +11358,8 @@ Which resource can be backed up to Backup1, and which resource can be backed up 
 NOTE: Each correct selection is worth one point.
 ![](images/image880.png)
 
-**Correct Answer:** ![](images/image881.png)
+**Correct Answer:** ✅ 
+![](images/image881.png)
 
 ---
 
@@ -11320,8 +11431,13 @@ To what should you set the backup frequency for each resource? To answer, select
 NOTE: Each correct selection is worth one point.
 ![](images/image882.png)
 
-**Correct Answer:** ![](images/image883.png)
+**Correct Answer:** ✅ 
+![](images/image883.png)
+cont1: Daily
+( Azure Backup currently supports backups of Azure Blob Storage (containers) on a daily basis.)
 
+share1: Every 4 Hours
+(Maximum number of scheduled backups per day for file share is 6 time, that means every 4th hour)
 ---
 
 ### Question 585: Question #1 Topic 7
@@ -11379,7 +11495,8 @@ Which two settings should you modify? To answer, select the appropriate settings
 Hot Area:
 ![](images/0013000001.png)
 
-**Correct Answer:** ![](images/0013100001.png)
+**Correct Answer:** ✅ 
+![](images/0013100001.png)
 
 _Explanation:_
 Box 1: Selected -
@@ -11444,7 +11561,7 @@ What should you do?
 - A. From the Azure Active Directory blade, modify the Groups
 - B. From the Azure Active Directory blade, modify the Properties
 - C. From the Subscriptions blade, select the subscription, and then modify the Access control (IAM) settings
-- D. From the Subscriptions blade, select the subscription, and then modify the Properties
+- ✅ D. From the Subscriptions blade, select the subscription, and then modify the Properties
 
 **Correct Answer:** D
 
@@ -11507,7 +11624,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0059500001.png)
 
-**Correct Answer:** ![](images/0059600001.png)
+**Correct Answer:** ✅ 
+![](images/0059600001.png)
 
 _Explanation:_
 Box 1: 3 -
@@ -11578,7 +11696,8 @@ Which three actions should you perform in sequence? To answer, move all actions 
 Select and Place:
 ![](images/0059800001.jpg)
 
-**Correct Answer:** ![](images/0059800002.jpg)
+**Correct Answer:** ✅ 
+![](images/0059800002.jpg)
 
 ---
 
@@ -11639,7 +11758,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0013700001.png)
 
-**Correct Answer:** ![](images/0013800001.png)
+**Correct Answer:** ✅ ![](images/0013800001.png)
 
 _Explanation:_
 Reference:
@@ -11700,7 +11819,7 @@ Question
 You need to ensure that you can grant Group4 Azure RBAC read only permissions to all the Azure file shares.
 What should you do?
 
-- A. On storage2, enable identity-based access for the file shares.
+- ✅ A. On storage2, enable identity-based access for the file shares.
 - B. Recreate storage2 and set Hierarchical namespace to Enabled.
 - C. On storage1 and storage4, change the Account kind type to StorageV2 (general purpose v2).
 - D. Create a shared access signature (SAS) for storage1, storage2, and storage4.
@@ -11764,7 +11883,7 @@ What should you create first?
 - A. a recovery plan
 - B. an Azure Backup Server
 - C. a backup policy
-- D. a Recovery Services vault
+- ✅ D. a Recovery Services vault
 
 **Correct Answer:** D
 
@@ -11823,7 +11942,7 @@ You need to move the blueprint files to Azure.
 What should you do?
 
 - A. Generate an access key. Map a drive, and then copy the files by using File Explorer.
-- B. Use Azure Storage Explorer to copy the files.
+- ✅ B. Use Azure Storage Explorer to copy the files.
 - C. Use the Azure Import/Export service.
 - D. Generate a shared access signature (SAS). Map a drive, and then copy the files by using File Explorer.
 
@@ -11887,7 +12006,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0022000001.jpg)
 
-**Correct Answer:** ![](images/0022100001.jpg)
+**Correct Answer:** ✅ 
+![](images/0022100001.jpg)
 
 _Explanation:_
 Box 1: Yes -
@@ -11955,7 +12075,7 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0022600001.jpg)
 
-**Correct Answer:** ![](images/0022700001.jpg)
+**Correct Answer:** ✅ ![](images/0022700001.jpg)
 
 _Explanation:_
 Reference:
@@ -12020,7 +12140,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0022800001.jpg)
 
-**Correct Answer:** ![](images/0022900001.jpg)
+**Correct Answer:** ✅ 
+![](images/0022900001.jpg)
 
 _Explanation:_
 Reference:
@@ -12082,7 +12203,7 @@ You need to identify which storage account to use for the flow logging of IP tra
 Which storage account should you identify?
 
 - A. storage1
-- B. storage2
+- ✅ B. storage2
 - C. storage3
 - D. storage4
 
@@ -12145,7 +12266,7 @@ What should you use?
 - B. Diagnostic settings in Azure Monitor
 - C. Diagnose and solve problems in Traffic Manager profiles
 - D. The security recommendations in Azure Advisor
-- E. IP flow verify in Azure Network Watcher
+- ✅ E. IP flow verify in Azure Network Watcher
 
 **Correct Answer:** E
 
@@ -12202,7 +12323,7 @@ You need to ensure that VM1 can communicate with VM4. The solution must minimize
 What should you do?
 
 - A. Create an NSG and associate the NSG to VM1 and VM4.
-- B. Establish peering between VNET1 and VNET3.
+- ✅ B. Establish peering between VNET1 and VNET3.
 - C. Assign VM4 an IP address of 10.0.1.5/24.
 - D. Create a user-defined route from VNET1 to VNET3.
 
@@ -12264,7 +12385,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0051000001.png)
 
-**Correct Answer:** ![](images/0051100001.png)
+**Correct Answer:** ✅ 
+![](images/0051100001.png)
 
 _Explanation:_
 Box 1: Create a virtual network gateway and a local network gateway.
@@ -12341,7 +12463,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0051500001.jpg)
 
-**Correct Answer:** ![](images/0051600001.jpg)
+**Correct Answer:** ✅ 
+![](images/0051600001.jpg)
 
 _Explanation:_
 This reference architecture shows how to deploy VMs and a virtual network configured for an N-tier application, using SQL Server on Windows for the data tier.
@@ -12412,7 +12535,7 @@ You create a network security group (NSG).
 You need to recommend a solution to provide users with access to App1.
 What should you recommend?
 
-- A. Create an incoming security rule for port 443 from the Internet. Associate the NSG to the subnet that contains the web servers.
+- ✅ A. Create an incoming security rule for port 443 from the Internet. Associate the NSG to the subnet that contains the web servers.
 - B. Create an outgoing security rule for port 443 from the Internet. Associate the NSG to the subnet that contains the web servers.
 - C. Create an incoming security rule for port 443 from the Internet. Associate the NSG to all the subnets.
 - D. Create an outgoing security rule for port 443 from the Internet. Associate the NSG to all the subnets.
@@ -12478,17 +12601,15 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0052300001.png)
 
-**Correct Answer:** ![](images/0052300002.jpg)
+**Correct Answer:** ✅ 
+![](images/0052300002.jpg)
+VM1 has inbound rules, so no restriction on outbound.
+VM2 has outbound rules, so no restrictions on inbound.
 
-_Explanation:_
-Box 1: No -
-NSG2 blocks RDP to VM2 -
-Box 2: Yes -
-ICMP is not blocked -
-Box 3: No -
-NSG2 blocks RDP from VM2 -
-Reference:
-https://docs.microsoft.com/en-us/azure/virtual-network/network-security-group-how-it-works
+Hence VM1 can establish RDP to VM2.
+
+VM2 —ping—> VM3: Yes(no restriction other than outbound RDP)
+VM2 —RDP—> VM3: No(outbound RDP is not allowed on VM2)
 
 ---
 
@@ -12547,7 +12668,7 @@ What should you do first?
 
 - A. Connect VM2 to VNET1/Subnet1.
 - B. Redeploy VM1 and VM2 to the same availability zone.
-- C. Redeploy VM1 and VM2 to the same availability set.
+- ✅ C. Redeploy VM1 and VM2 to the same availability set.
 - D. Create a new NSG and associate the NSG to VNET1/Subnet1.
 
 **Correct Answer:** C
@@ -12562,7 +12683,7 @@ What should you do?
 - A. Create a user-defined route from VNET1 to VNET3.
 - B. Create an NSG and associate the NSG to VM1 and VM4.
 - C. Assign VM4 an IP address of 10.0.1.5/24.
-- D. Establish peering between VNET1 and VNET3.
+- ✅ D. Establish peering between VNET1 and VNET3.
 
 **Correct Answer:** D
 
@@ -12622,7 +12743,8 @@ NOTE: Each correct selection is worth one point.
 Hot Area:
 ![](images/0058900009.png)
 
-**Correct Answer:** ![](images/0058900010.png)
+**Correct Answer:** ✅ 
+![](images/0058900010.png)
 
 ---
 
@@ -12677,7 +12799,7 @@ You need to recommend a solution to automate the configuration for the finance d
 What should you include in the recommendation?
 
 - A. Azure AD B2C
-- B. dynamic groups and conditional access policies
+- ✅ B. dynamic groups and conditional access policies
 - C. Azure AD Identity Protection
 - D. an Azure logic app and the Microsoft Identity Management (MIM) client
 
